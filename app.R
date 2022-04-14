@@ -1,6 +1,49 @@
 library(shiny)
 library(tidyverse)
+library(maps)
+library(ggmap) 
+library(lubridate)
+library(sf)  
+library(RColorBrewer)
 
-WeatherEvents_Jan2016_Dec2021 <- read_csv("WeatherEvents_Jan2016-Dec2021.csv", 
-                                          col_types = cols(ZipCode = col_character()))
+weather <- read_csv("WeatherEvents_Jan2016-Dec2021.csv", 
+                    col_types = cols(ZipCode = col_character()))
+
+states_map <- map_data("state")%>% 
+  mutate(region = str_to_title(region))
+
+st_crosswalk <- tibble(state = state.name) %>%
+  bind_cols(tibble(abb = state.abb)) %>% 
+  bind_rows(tibble(state = "District of Columbia", abb = "DC")) 
+
+weather2 <- weather %>% 
+  left_join(st_crosswalk, by = c("State" = "abb")) %>% 
+  mutate(abb = State) %>% 
+  mutate(lower = tolower(state)) %>% 
+  rename(start = `StartTime(UTC)`) %>% 
+  rename(end = `EndTime(UTC)`) %>% 
+  rename(precip = `Precipitation(in)`) %>% 
+  mutate(year = year(start)) 
+
+
+ui <- fluidPage(selectInput(inputId = "year", 
+                            label = "Year:", 
+                            choices = c("2016", "2017", "2018", "2019", "2020", "2021")), 
+                plotOutput(outputId = "precipplot"))#widgets
+server <- function(input, output) {
+  output$precipplot <- renderPlot(
+    weather2 %>% 
+      filter(year == input$year) %>% 
+      group_by(state) %>% 
+      summarise(totalprecip = sum(precip)) %>%
+      ggplot() +
+      geom_map(map = states_map,
+               aes(map_id = state, fill = totalprecip)) +
+      expand_limits(x = states_map$long, y = states_map$lat) +
+      labs(fill = "Total Precipitation (inches)") +
+      theme_map() +
+      theme(legend.background = element_blank())
+  )
+} #r code, generate graph, translate input into an output (graph)
+shinyApp(ui = ui, server = server) 
 
