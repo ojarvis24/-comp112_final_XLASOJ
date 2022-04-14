@@ -26,10 +26,12 @@ weather2 <- weather %>%
   mutate(year = year(start)) 
 
 
-ui <- fluidPage(selectInput(inputId = "year", 
+ui <- fluidPage(h2("Precipitation in the United States"),
+                selectInput(inputId = "year", 
                             label = "Year:", 
                             choices = c("2016", "2017", "2018", "2019", "2020", "2021")), 
                 plotOutput(outputId = "precipplot"))#widgets
+
 server <- function(input, output) {
   output$precipplot <- renderPlot(
     weather2 %>% 
@@ -42,7 +44,8 @@ server <- function(input, output) {
       expand_limits(x = states_map$long, y = states_map$lat) +
       labs(fill = "Total Precipitation (inches)") +
       theme_map() +
-      theme(legend.background = element_blank())
+      theme(legend.background = element_blank()) +
+      scale_fill_distiller(palette = "Blues", direction = 1)
   )
 } #r code, generate graph, translate input into an output (graph)
 shinyApp(ui = ui, server = server) 
