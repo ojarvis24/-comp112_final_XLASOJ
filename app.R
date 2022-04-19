@@ -40,7 +40,12 @@ ui <- fluidPage(h2("Precipitation in the United States"),
                 selectInput(inputId = "year", 
                             label = "Year:", 
                             choices = c("2016", "2017", "2018", "2019", "2020", "2021")), 
-                plotOutput(outputId = "typeplot"))#widgets
+                plotOutput(outputId = "typeplot"),
+                h2("Severe Weather in the United States"),
+                selectInput(inputId = "year", 
+                            label = "Year:", 
+                            choices = c("2016", "2017", "2018", "2019", "2020", "2021")), 
+                plotOutput(outputId = "severeplot"))#widgets
 
 server <- function(input, output) {
   output$precipplot <- renderPlot(
@@ -67,6 +72,22 @@ server <- function(input, output) {
                    fill = state),
                position = position_dodge())+
       labs(fill = "State(s)"))
+  output$severeplot <- renderPlot(
+    weather2 %>% 
+      filter(year == input$year) %>% 
+      group_by(lower, Severity) %>% 
+      summarize(n = n()) %>% 
+      filter(Severity == "Severe") %>% 
+      ggplot() +
+      geom_map(map = state_map, 
+               aes(map_id = lower, fill = n)) +
+      expand_limits(x = states_map$long, y = states_map$lat) +
+      scale_fill_viridis_c(option = "B",
+                           direction = -1)+
+      labs(fill = "Total Severe Weather (Days)") +
+      theme_map() +
+      theme(legend.background = element_blank())
+  )
     
 } #r code, generate graph, translate input into an output (graph)
 shinyApp(ui = ui, server = server) 
