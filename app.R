@@ -7,6 +7,8 @@ library(lubridate)
 library(sf)  
 library(RColorBrewer)
 
+
+
 weather <- read_csv("weathersm.csv")
 
 states_map <- map_data("state")%>% 
@@ -19,6 +21,7 @@ st_crosswalk <- tibble(state = state.name) %>%
 weather2 <- weather %>% 
   left_join(st_crosswalk, by = c("state")) 
 
+weatherarea <- read_csv("weatherarea.csv")
 
 ui <- fluidPage(h2("Precipitation in the United States"),
                 selectInput(inputId = "year", 
@@ -42,15 +45,13 @@ ui <- fluidPage(h2("Precipitation in the United States"),
                 
 server <- function(input, output) {
   output$precipplot <- renderPlot(
-    weather2 %>%
+    weatherarea %>%
       filter(year == input$year) %>%
-      group_by(state) %>%
-      summarise(totalprecip = sum(precip)) %>%
       ggplot() +
       geom_map(map = states_map,
-               aes(map_id = state, fill = totalprecip)) +
+               aes(map_id = state, fill = preciparea)) +
       expand_limits(x = states_map$long, y = states_map$lat) +
-      labs(fill = "Total Precipitation (inches)") +
+      labs(fill = "Total Precipitation Per Square Mile (inches/miles^2)") +
       theme_map() +
       theme(legend.background = element_blank()) +
       scale_fill_distiller(palette = "Blues", direction = 1))
