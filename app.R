@@ -23,6 +23,9 @@ weather2 <- weather %>%
 
 weatherarea <- read_csv("weatherarea.csv")
 
+weathertemp <- read_csv("weathertemp.csv") %>% 
+  mutate(date = ymd(Date.Full)) 
+
 ui <- fluidPage(h2("Precipitation in the United States"),
                 selectInput(inputId = "year", 
                             label = "Year:", 
@@ -41,7 +44,13 @@ ui <- fluidPage(h2("Precipitation in the United States"),
                 selectInput(inputId = "year", 
                             label = "Year:", 
                             choices = c("2016", "2017", "2018", "2019", "2020", "2021")), 
-                 plotOutput(outputId = "severeplot"))#widgets
+                plotOutput(outputId = "severeplot"),
+                h2("State's Average Daily Temperature Over 2016"),
+                selectInput(inputId = "state", 
+                            label = "State(s):", 
+                            choices = unique(weather2$state), 
+                            multiple = TRUE), 
+                plotOutput(outputId = "tempplot"))#widgets
                 
 server <- function(input, output) {
   output$precipplot <- renderPlot(
@@ -80,7 +89,18 @@ server <- function(input, output) {
                            direction = -1)+
       labs(fill = "Total Severe Weather (Days)") +
       theme_map() +
-      theme(legend.background = element_blank())
+      theme(legend.background = element_blank()),
+    output$tempplot <- renderPlot(
+      weather2 %>%
+        filter(year == input$year) %>%
+        filter(state %in% input$state) %>%
+        group_by(state) %>%
+        group_by(year) %>%
+        ggplot() +
+        geom_bar(aes(x = Type,
+                     fill = state),
+                 position = position_dodge())+
+        labs(fill = "State(s)"))
   )
     
 } #r code, generate graph, translate input into an output (graph)
