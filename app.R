@@ -24,7 +24,9 @@ weather2 <- weather %>%
 weatherarea <- read_csv("weatherarea.csv")
 
 weathertemp <- read_csv("weathertemp.csv") %>% 
-  mutate(date = ymd(Date.Full)) 
+  mutate(date = ymd(Date.Full))
+
+sev_weatherarea <- read_csv("sev_weatherarea.csv")
 
 ui <- fluidPage(h2("Precipitation in the United States"),
                 selectInput(inputId = "year", 
@@ -76,14 +78,12 @@ server <- function(input, output) {
                position = position_dodge())+
       labs(fill = "State(s)"))
   output$severeplot <- renderPlot(
-    weather2 %>%
+    sev_weatherarea %>%
       filter(year == input$year) %>%
-      group_by(state, Severity) %>%
-      summarize(n = n()) %>%
       filter(Severity == "Severe") %>%
       ggplot() +
       geom_map(map = states_map,
-               aes(map_id = state, fill = n)) +
+               aes(map_id = state, fill = sev_area)) +
       expand_limits(x = states_map$long, y = states_map$lat) +
       scale_fill_viridis_c(option = "B",
                            direction = -1)+
