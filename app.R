@@ -18,6 +18,8 @@ airquality2 <- airquality %>%
   mutate(Year = year(Date)) %>% 
   mutate("region" = `State Name`)
 
+airquality_f <- read_csv("airquality_f.csv")
+
 weather <- read_csv("weathersm.csv")
 
 states_map <- map_data("state")%>% 
@@ -133,15 +135,15 @@ server <- function(input, output) {
         theme(axis.text.x = element_text(angle = 45, hjust = 1, vjust = 1))
     )
     output$airplot <- renderPlot( 
-      airquality2 %>% 
+      airquality_f %>% 
         filter(Year == input$Year) %>% 
-        filter(Year > 2015) %>% 
-        group_by(region, Category) %>% 
+        group_by(region, mean_AQI) %>% 
         ggplot() +
         geom_map(map = states_map,
-                 aes(map_id = region, fill = Category)) +
+                 aes(map_id = region, fill = mean_AQI)) +
         expand_limits(x = states_map$long, y = states_map$lat) +
-        scale_fill_brewer(palette = "OrRd", direction = -1) +
+        scale_fill_viridis_c(
+                             direction = -1) +
         labs(fill = "Air Quality") +
         theme_map() +
         theme(legend.background = element_blank()))
