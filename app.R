@@ -52,16 +52,7 @@ ui <- fluidPage(h2("Precipitation in the United States"),
                             label = "State(s):", 
                             choices = unique(weather2$state), 
                             multiple = TRUE), 
-                plotOutput(outputId = "tempplot"),
-                h2("State's Average Temperature"),
-                selectInput(inputId = "Station.State", 
-                            label = "State(s):", 
-                            choices = unique(weathertemp$Station.State), 
-                            multiple = TRUE), 
-                selectInput(inputId = "year", 
-                            label = "Year:", 
-                            choices = c("2016", "2017")),
-                plotOutput(outputId = "avgtempplot")
+                plotOutput(outputId = "tempplot")
                 )#widgets
                 
 server <- function(input, output) {
@@ -114,22 +105,6 @@ server <- function(input, output) {
                      fill = state),
                  position = position_dodge())+
         labs(fill = "State(s)")
-      )
-    output$avgtempplot <- renderPlot(
-      weathertemp %>% 
-        group_by(Station.State,Date.Full) %>% 
-        filter(Station.State %in% input$Station.State,
-               Date.Year == input$Date.Year) %>% 
-        summarise(avg_temp=sum(`Data.Temperature.Avg Temp`)/n()) %>% 
-        ggplot(aes(x=Date.Full, 
-                   y=avg_temp,
-                   color = Station.State))+
-        geom_line()+ 
-        labs(x = "Date",
-             y = "",
-             color = "State(s)")+
-        theme_bw()+
-        theme(axis.text.x = element_text(angle = 45, hjust = 1, vjust = 1))
       )
     
 } #r code, generate graph, translate input into an output (graph)
