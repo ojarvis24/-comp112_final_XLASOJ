@@ -9,7 +9,6 @@ library(RColorBrewer)
 library(bslib)
 
 
-
 weather <- read_csv("weathersm.csv")
 
 states_map <- map_data("state")%>% 
