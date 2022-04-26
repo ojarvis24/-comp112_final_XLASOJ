@@ -29,12 +29,19 @@ weathertemp <- read_csv("weathertemp.csv") %>%
 sev_weatherarea <- read_csv("sev_weatherarea.csv")
 
 ui <- fluidPage(theme = bs_theme(bootswatch = "minty"), 
-                h2("Precipitation in the United States"),
+                titlePanel("Where do I want to live in the United States?"),
+                h3("State's Average Daily Temperature Over 2016"),
+                selectInput(inputId = "Station.State", 
+                            label = "State(s):", 
+                            choices = unique(weathertemp$Station.State), 
+                            multiple = TRUE), 
+                plotOutput(outputId = "avgtempplot"),
+                h3("Precipitation in the United States"),
                 selectInput(inputId = "year", 
                             label = "Year:", 
                             choices = c("2016", "2017", "2018", "2019", "2020", "2021")), 
                 plotOutput(outputId = "precipplot"), 
-                h2("What Types of Weather Do Different States Have?"),
+                h3("What Types of Weather Do Different States Have?"),
                 selectInput(inputId = "state", 
                             label = "State(s):", 
                             choices = unique(weather2$state), 
@@ -43,17 +50,11 @@ ui <- fluidPage(theme = bs_theme(bootswatch = "minty"),
                             label = "Year:", 
                             choices = c("2016", "2017", "2018", "2019", "2020", "2021")), 
                 plotOutput(outputId = "typeplot"),
-                h2("Severe Weather in the United States"),
+                h3("Severe Weather in the United States"),
                 selectInput(inputId = "year", 
                             label = "Year:", 
                             choices = c("2016", "2017", "2018", "2019", "2020", "2021")), 
-                plotOutput(outputId = "severeplot"),
-                h2("State's Average Daily Temperature Over 2016"),
-                selectInput(inputId = "Station.State", 
-                            label = "State(s):", 
-                            choices = unique(weathertemp$Station.State), 
-                            multiple = TRUE), 
-                plotOutput(outputId = "avgtempplot")
+                plotOutput(outputId = "severeplot")
                 )#widgets
                 
 server <- function(input, output) {
