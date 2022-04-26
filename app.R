@@ -8,6 +8,15 @@ library(sf)
 library(RColorBrewer)
 library(bslib)
 
+library(readr)
+airquality <- read_csv("aqi_daily_1980_to_2021.csv")
+
+states_map <- map_data("state")%>% 
+  mutate(region = str_to_title(region))
+
+airquality2 <- airquality %>% 
+  mutate(Year = year(Date)) %>% 
+  mutate("region" = `State Name`)
 
 weather <- read_csv("weathersm.csv")
 
@@ -54,7 +63,13 @@ ui <- fluidPage(theme = bs_theme(bootswatch = "minty"),
                 selectInput(inputId = "year", 
                             label = "Year:", 
                             choices = c("2016", "2017", "2018", "2019", "2020", "2021")), 
-                plotOutput(outputId = "severeplot")
+                plotOutput(outputId = "severeplot"),
+                h2("Air Quality in the United States"),
+                selectInput(inputId = "Year",
+                            label = "Year:",
+                            choices = c("2016", "2017", "2018", "2019", "2020", "2021")),
+                submitButton("Submit"),
+                plotOutput(outputId = "airplot")
                 )#widgets
                 
 server <- function(input, output) {
@@ -111,6 +126,19 @@ server <- function(input, output) {
         theme_bw()+
         theme(axis.text.x = element_text(angle = 45, hjust = 1, vjust = 1))
     )
+    output$airplot <- renderPlot( 
+      airquality2 %>% 
+        filter(Year == input$Year) %>% 
+        filter(Year > 2015) %>% 
+        group_by(region, Category) %>% 
+        ggplot() +
+        geom_map(map = states_map,
+                 aes(map_id = region, fill = Category)) +
+        expand_limits(x = states_map$long, y = states_map$lat) +
+        scale_fill_brewer(palette = "OrRd", direction = -1) +
+        labs(fill = "Air Quality") +
+        theme_map() +
+        theme(legend.background = element_blank()))
     
 } #r code, generate graph, translate input into an output (graph)
 shinyApp(ui = ui, server = server) 
