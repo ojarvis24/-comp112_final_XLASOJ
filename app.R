@@ -25,7 +25,9 @@ weather2 <- weather %>%
 weatherarea <- read_csv("weatherarea.csv")
 
 weathertemp <- read_csv("weathertemp.csv") %>% 
-  mutate(date = ymd(Date.Full)) 
+  mutate(date = ymd(Date.Full))
+
+sev_weatherarea <- read_csv("sev_weatherarea.csv")
 
 ui <- fluidPage(theme = bs_theme(bootswatch = "minty"), 
                 h2("Precipitation in the United States"),
@@ -52,7 +54,8 @@ ui <- fluidPage(theme = bs_theme(bootswatch = "minty"),
                             label = "State(s):", 
                             choices = unique(weather2$state), 
                             multiple = TRUE), 
-                plotOutput(outputId = "tempplot"))#widgets
+                plotOutput(outputId = "tempplot")
+                )#widgets
                 
 server <- function(input, output) {
   output$precipplot <- renderPlot(
@@ -65,7 +68,8 @@ server <- function(input, output) {
       labs(fill = "Total Precipitation Per Square Mile (inches/miles^2)") +
       theme_map() +
       theme(legend.background = element_blank()) +
-      scale_fill_distiller(palette = "Blues", direction = 1))
+      scale_fill_distiller(palette = "Blues", direction = 1)
+    )
   output$typeplot <- renderPlot(
     weather2 %>%
       filter(year == input$year) %>%
@@ -76,22 +80,22 @@ server <- function(input, output) {
       geom_bar(aes(x = Type,
                    fill = state),
                position = position_dodge())+
-      labs(fill = "State(s)"))
+      labs(fill = "State(s)")
+    )
   output$severeplot <- renderPlot(
-    weather2 %>%
+    sev_weatherarea %>%
       filter(year == input$year) %>%
-      group_by(state, Severity) %>%
-      summarize(n = n()) %>%
       filter(Severity == "Severe") %>%
       ggplot() +
       geom_map(map = states_map,
-               aes(map_id = state, fill = n)) +
+               aes(map_id = state, fill = sev_area)) +
       expand_limits(x = states_map$long, y = states_map$lat) +
       scale_fill_viridis_c(option = "B",
                            direction = -1)+
       labs(fill = "Total Severe Weather (Days)") +
       theme_map() +
-      theme(legend.background = element_blank()),
+      theme(legend.background = element_blank())
+    )
     output$tempplot <- renderPlot(
       weather2 %>%
         filter(year == input$year) %>%
@@ -102,8 +106,8 @@ server <- function(input, output) {
         geom_bar(aes(x = Type,
                      fill = state),
                  position = position_dodge())+
-        labs(fill = "State(s)"))
-  )
+        labs(fill = "State(s)")
+      )
     
 } #r code, generate graph, translate input into an output (graph)
 shinyApp(ui = ui, server = server) 
