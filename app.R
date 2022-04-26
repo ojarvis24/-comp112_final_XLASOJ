@@ -6,6 +6,7 @@ library(ggthemes)
 library(lubridate)
 library(sf)  
 library(RColorBrewer)
+library(bslib)
 
 
 
@@ -26,7 +27,8 @@ weatherarea <- read_csv("weatherarea.csv")
 weathertemp <- read_csv("weathertemp.csv") %>% 
   mutate(date = ymd(Date.Full)) 
 
-ui <- fluidPage(h2("Precipitation in the United States"),
+ui <- fluidPage(theme = bs_theme(bootswatch = "minty"), 
+                h2("Precipitation in the United States"),
                 selectInput(inputId = "year", 
                             label = "Year:", 
                             choices = c("2016", "2017", "2018", "2019", "2020", "2021")), 
