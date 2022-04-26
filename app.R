@@ -48,11 +48,11 @@ ui <- fluidPage(h2("Precipitation in the United States"),
                             choices = c("2016", "2017", "2018", "2019", "2020", "2021")), 
                 plotOutput(outputId = "severeplot"),
                 h2("State's Average Daily Temperature Over 2016"),
-                selectInput(inputId = "state", 
+                selectInput(inputId = "Station.State", 
                             label = "State(s):", 
-                            choices = unique(weather2$state), 
+                            choices = unique(weathertemp$Station.State), 
                             multiple = TRUE), 
-                plotOutput(outputId = "tempplot")
+                plotOutput(outputId = "avgtempplot")
                 )#widgets
                 
 server <- function(input, output) {
@@ -94,18 +94,21 @@ server <- function(input, output) {
       theme_map() +
       theme(legend.background = element_blank())
     )
-    output$tempplot <- renderPlot(
-      weather2 %>%
-        filter(year == input$year) %>%
-        filter(state %in% input$state) %>%
-        group_by(state) %>%
-        group_by(year) %>%
-        ggplot() +
-        geom_bar(aes(x = Type,
-                     fill = state),
-                 position = position_dodge())+
-        labs(fill = "State(s)")
-      )
+    output$avgtempplot <- renderPlot(
+      weathertemp %>% 
+        group_by(Station.State,Date.Full) %>% 
+        filter(Station.State %in% input$Station.State) %>% 
+        summarise(avg_temp=sum(`Data.Temperature.Avg Temp`)/n()) %>% 
+        ggplot(aes(x=Date.Full, 
+                   y=avg_temp,
+                   color = Station.State))+
+        geom_line()+ 
+        labs(x = "Date",
+             y = "Temperature (F)",
+             color = "State(s)")+
+        theme_bw()+
+        theme(axis.text.x = element_text(angle = 45, hjust = 1, vjust = 1))
+    )
     
 } #r code, generate graph, translate input into an output (graph)
 shinyApp(ui = ui, server = server) 
