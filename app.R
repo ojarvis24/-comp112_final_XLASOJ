@@ -118,10 +118,11 @@ server <- function(input, output) {
     )
     output$avgtempplot <- renderPlot(
       weathertemp %>% 
-        group_by(Station.State,Date.Full) %>% 
+        mutate(date = ymd(Date.Full)) %>% 
+        group_by(Station.State, date) %>% 
         filter(Station.State %in% input$Station.State) %>% 
         summarise(avg_temp=sum(`Data.Temperature.Avg Temp`)/n()) %>% 
-        ggplot(aes(x=Date.Full, 
+        ggplot(aes(x=date, 
                    y=avg_temp,
                    color = Station.State))+
         geom_line()+ 
