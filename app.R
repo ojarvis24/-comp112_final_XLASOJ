@@ -90,11 +90,11 @@ server <- function(input, output) {
       scale_fill_distiller(palette = "Blues", direction = 1)
     )
   output$mytext<- renderUI(HTML("<ul>Air Quality Index breakpoints:
-                 <li>Good - 0 to 50 </li>
-                 <li>Moderate - 51 to 100</li>
-                 <li>Unhealthy - 101 to 150</li>
+                 <li>Very unhealthy - 201 to 300 </li>
                  <li>Unhealthy - 151 to 200</li>
-                 <li>Very unhealthy - 201 to 300</li></ul>"))
+                 <li>Unhealthy for sensitive groups - 101 to 150</li>
+                 <li>Moderate - 51 to 100</li>
+                 <li>Good - 0 to 50 </li></ul>"))
   output$typeplot <- renderPlot(
     weathertype2 %>%
       filter(state %in% input$state) %>%
@@ -121,10 +121,11 @@ server <- function(input, output) {
     )
     output$avgtempplot <- renderPlot(
       weathertemp %>% 
-        group_by(Station.State,Date.Full) %>% 
+        mutate(date = ymd(Date.Full)) %>% 
+        group_by(Station.State, date) %>% 
         filter(Station.State %in% input$Station.State) %>% 
         summarise(avg_temp=sum(`Data.Temperature.Avg Temp`)/n()) %>% 
-        ggplot(aes(x=Date.Full, 
+        ggplot(aes(x=date, 
                    y=avg_temp,
                    color = Station.State))+
         geom_line()+ 
