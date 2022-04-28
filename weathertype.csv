@@ -1,0 +1,1968 @@
+"","year","state","Type","n()"
+"1",2016,"Alabama","Cold",1030
+"2",2016,"Alabama","Fog",3831
+"3",2016,"Alabama","Hail",4
+"4",2016,"Alabama","Precipitation",301
+"5",2016,"Alabama","Rain",16921
+"6",2016,"Alabama","Snow",197
+"7",2016,"Alabama","Storm",8
+"8",2016,"Arizona","Cold",330
+"9",2016,"Arizona","Fog",1276
+"10",2016,"Arizona","Hail",4
+"11",2016,"Arizona","Precipitation",82
+"12",2016,"Arizona","Rain",7255
+"13",2016,"Arizona","Snow",1119
+"14",2016,"Arizona","Storm",128
+"15",2016,"Arkansas","Cold",952
+"16",2016,"Arkansas","Fog",3990
+"17",2016,"Arkansas","Hail",5
+"18",2016,"Arkansas","Precipitation",703
+"19",2016,"Arkansas","Rain",13658
+"20",2016,"Arkansas","Snow",269
+"21",2016,"Arkansas","Storm",20
+"22",2016,"California","Cold",2074
+"23",2016,"California","Fog",20286
+"24",2016,"California","Hail",9
+"25",2016,"California","Precipitation",416
+"26",2016,"California","Rain",23887
+"27",2016,"California","Snow",1848
+"28",2016,"California","Storm",459
+"29",2016,"Colorado","Cold",1075
+"30",2016,"Colorado","Fog",4983
+"31",2016,"Colorado","Hail",27
+"32",2016,"Colorado","Precipitation",55
+"33",2016,"Colorado","Rain",14800
+"34",2016,"Colorado","Snow",9202
+"35",2016,"Colorado","Storm",1615
+"36",2016,"Connecticut","Cold",73
+"37",2016,"Connecticut","Fog",861
+"38",2016,"Connecticut","Hail",6
+"39",2016,"Connecticut","Precipitation",37
+"40",2016,"Connecticut","Rain",3499
+"41",2016,"Connecticut","Snow",788
+"42",2016,"Connecticut","Storm",10
+"43",2016,"Delaware","Cold",11
+"44",2016,"Delaware","Fog",245
+"45",2016,"Delaware","Hail",1
+"46",2016,"Delaware","Precipitation",13
+"47",2016,"Delaware","Rain",1790
+"48",2016,"Delaware","Snow",178
+"49",2016,"Delaware","Storm",7
+"50",2016,"Florida","Cold",1879
+"51",2016,"Florida","Fog",8153
+"52",2016,"Florida","Hail",1
+"53",2016,"Florida","Precipitation",998
+"54",2016,"Florida","Rain",40451
+"55",2016,"Florida","Snow",1
+"56",2016,"Florida","Storm",116
+"57",2016,"Georgia","Cold",584
+"58",2016,"Georgia","Fog",6991
+"59",2016,"Georgia","Hail",3
+"60",2016,"Georgia","Precipitation",146
+"61",2016,"Georgia","Rain",23720
+"62",2016,"Georgia","Snow",308
+"63",2016,"Georgia","Storm",21
+"64",2016,"Idaho","Cold",369
+"65",2016,"Idaho","Fog",3493
+"66",2016,"Idaho","Hail",2
+"67",2016,"Idaho","Precipitation",50
+"68",2016,"Idaho","Rain",5554
+"69",2016,"Idaho","Snow",4391
+"70",2016,"Idaho","Storm",32
+"71",2016,"Illinois","Cold",738
+"72",2016,"Illinois","Fog",7355
+"73",2016,"Illinois","Hail",23
+"74",2016,"Illinois","Precipitation",307
+"75",2016,"Illinois","Rain",27734
+"76",2016,"Illinois","Snow",4097
+"77",2016,"Illinois","Storm",139
+"78",2016,"Indiana","Cold",703
+"79",2016,"Indiana","Fog",4435
+"80",2016,"Indiana","Hail",13
+"81",2016,"Indiana","Precipitation",279
+"82",2016,"Indiana","Rain",11962
+"83",2016,"Indiana","Snow",2974
+"84",2016,"Indiana","Storm",69
+"85",2016,"Iowa","Cold",1079
+"86",2016,"Iowa","Fog",9012
+"87",2016,"Iowa","Hail",9
+"88",2016,"Iowa","Precipitation",445
+"89",2016,"Iowa","Rain",17865
+"90",2016,"Iowa","Snow",6312
+"91",2016,"Iowa","Storm",267
+"92",2016,"Kansas","Cold",1112
+"93",2016,"Kansas","Fog",2792
+"94",2016,"Kansas","Hail",15
+"95",2016,"Kansas","Precipitation",231
+"96",2016,"Kansas","Rain",11474
+"97",2016,"Kansas","Snow",843
+"98",2016,"Kansas","Storm",176
+"99",2016,"Kentucky","Cold",487
+"100",2016,"Kentucky","Fog",2765
+"101",2016,"Kentucky","Hail",13
+"102",2016,"Kentucky","Precipitation",310
+"103",2016,"Kentucky","Rain",12149
+"104",2016,"Kentucky","Snow",1625
+"105",2016,"Kentucky","Storm",17
+"106",2016,"Louisiana","Cold",651
+"107",2016,"Louisiana","Fog",7057
+"108",2016,"Louisiana","Hail",3
+"109",2016,"Louisiana","Precipitation",671
+"110",2016,"Louisiana","Rain",24595
+"111",2016,"Louisiana","Snow",22
+"112",2016,"Louisiana","Storm",52
+"113",2016,"Maine","Cold",268
+"114",2016,"Maine","Fog",2394
+"115",2016,"Maine","Hail",2
+"116",2016,"Maine","Precipitation",168
+"117",2016,"Maine","Rain",6103
+"118",2016,"Maine","Snow",2971
+"119",2016,"Maine","Storm",13
+"120",2016,"Maryland","Cold",381
+"121",2016,"Maryland","Fog",2238
+"122",2016,"Maryland","Hail",8
+"123",2016,"Maryland","Precipitation",96
+"124",2016,"Maryland","Rain",6142
+"125",2016,"Maryland","Snow",736
+"126",2016,"Maryland","Storm",30
+"127",2016,"Massachusetts","Cold",513
+"128",2016,"Massachusetts","Fog",3012
+"129",2016,"Massachusetts","Hail",6
+"130",2016,"Massachusetts","Precipitation",79
+"131",2016,"Massachusetts","Rain",8832
+"132",2016,"Massachusetts","Snow",2146
+"133",2016,"Massachusetts","Storm",46
+"134",2016,"Michigan","Cold",697
+"135",2016,"Michigan","Fog",11672
+"136",2016,"Michigan","Hail",26
+"137",2016,"Michigan","Precipitation",245
+"138",2016,"Michigan","Rain",25390
+"139",2016,"Michigan","Snow",18339
+"140",2016,"Michigan","Storm",49
+"141",2016,"Minnesota","Cold",3118
+"142",2016,"Minnesota","Fog",12782
+"143",2016,"Minnesota","Hail",19
+"144",2016,"Minnesota","Precipitation",362
+"145",2016,"Minnesota","Rain",35820
+"146",2016,"Minnesota","Snow",18395
+"147",2016,"Minnesota","Storm",272
+"148",2016,"Mississippi","Cold",589
+"149",2016,"Mississippi","Fog",5462
+"150",2016,"Mississippi","Hail",1
+"151",2016,"Mississippi","Precipitation",371
+"152",2016,"Mississippi","Rain",11142
+"153",2016,"Mississippi","Snow",95
+"154",2016,"Mississippi","Storm",11
+"155",2016,"Missouri","Cold",322
+"156",2016,"Missouri","Fog",3466
+"157",2016,"Missouri","Hail",17
+"158",2016,"Missouri","Precipitation",224
+"159",2016,"Missouri","Rain",13003
+"160",2016,"Missouri","Snow",1014
+"161",2016,"Missouri","Storm",23
+"162",2016,"Montana","Cold",374
+"163",2016,"Montana","Fog",3010
+"164",2016,"Montana","Hail",4
+"165",2016,"Montana","Precipitation",106
+"166",2016,"Montana","Rain",6268
+"167",2016,"Montana","Snow",4635
+"168",2016,"Montana","Storm",351
+"169",2016,"Nebraska","Cold",402
+"170",2016,"Nebraska","Fog",3206
+"171",2016,"Nebraska","Hail",7
+"172",2016,"Nebraska","Precipitation",95
+"173",2016,"Nebraska","Rain",13078
+"174",2016,"Nebraska","Snow",2983
+"175",2016,"Nebraska","Storm",355
+"176",2016,"Nevada","Cold",133
+"177",2016,"Nevada","Fog",810
+"178",2016,"Nevada","Hail",4
+"179",2016,"Nevada","Precipitation",28
+"180",2016,"Nevada","Rain",2776
+"181",2016,"Nevada","Snow",1266
+"182",2016,"Nevada","Storm",99
+"183",2016,"New Hampshire","Cold",190
+"184",2016,"New Hampshire","Fog",2452
+"185",2016,"New Hampshire","Hail",6
+"186",2016,"New Hampshire","Precipitation",80
+"187",2016,"New Hampshire","Rain",4500
+"188",2016,"New Hampshire","Snow",1883
+"189",2016,"New Hampshire","Storm",379
+"190",2016,"New Jersey","Cold",312
+"191",2016,"New Jersey","Fog",1491
+"192",2016,"New Jersey","Hail",8
+"193",2016,"New Jersey","Precipitation",176
+"194",2016,"New Jersey","Rain",6322
+"195",2016,"New Jersey","Snow",749
+"196",2016,"New Jersey","Storm",8
+"197",2016,"New Mexico","Cold",386
+"198",2016,"New Mexico","Fog",2026
+"199",2016,"New Mexico","Hail",4
+"200",2016,"New Mexico","Precipitation",63
+"201",2016,"New Mexico","Rain",8933
+"202",2016,"New Mexico","Snow",1632
+"203",2016,"New Mexico","Storm",332
+"204",2016,"New York","Cold",323
+"205",2016,"New York","Fog",3883
+"206",2016,"New York","Hail",44
+"207",2016,"New York","Precipitation",454
+"208",2016,"New York","Rain",14406
+"209",2016,"New York","Snow",6306
+"210",2016,"New York","Storm",24
+"211",2016,"North Carolina","Cold",1402
+"212",2016,"North Carolina","Fog",9289
+"213",2016,"North Carolina","Hail",13
+"214",2016,"North Carolina","Precipitation",474
+"215",2016,"North Carolina","Rain",36282
+"216",2016,"North Carolina","Snow",1483
+"217",2016,"North Carolina","Storm",113
+"218",2016,"North Dakota","Cold",1069
+"219",2016,"North Dakota","Fog",4463
+"220",2016,"North Dakota","Hail",7
+"221",2016,"North Dakota","Precipitation",319
+"222",2016,"North Dakota","Rain",8522
+"223",2016,"North Dakota","Snow",9540
+"224",2016,"North Dakota","Storm",465
+"225",2016,"Ohio","Cold",487
+"226",2016,"Ohio","Fog",5115
+"227",2016,"Ohio","Hail",8
+"228",2016,"Ohio","Precipitation",204
+"229",2016,"Ohio","Rain",16578
+"230",2016,"Ohio","Snow",5256
+"231",2016,"Ohio","Storm",51
+"232",2016,"Oklahoma","Cold",1219
+"233",2016,"Oklahoma","Fog",5141
+"234",2016,"Oklahoma","Hail",11
+"235",2016,"Oklahoma","Precipitation",220
+"236",2016,"Oklahoma","Rain",16743
+"237",2016,"Oklahoma","Snow",408
+"238",2016,"Oklahoma","Storm",130
+"239",2016,"Oregon","Cold",221
+"240",2016,"Oregon","Fog",4731
+"241",2016,"Oregon","Hail",7
+"242",2016,"Oregon","Precipitation",135
+"243",2016,"Oregon","Rain",17625
+"244",2016,"Oregon","Snow",1501
+"245",2016,"Oregon","Storm",42
+"246",2016,"Pennsylvania","Cold",361
+"247",2016,"Pennsylvania","Fog",4905
+"248",2016,"Pennsylvania","Hail",12
+"249",2016,"Pennsylvania","Precipitation",271
+"250",2016,"Pennsylvania","Rain",14895
+"251",2016,"Pennsylvania","Snow",4367
+"252",2016,"Pennsylvania","Storm",14
+"253",2016,"Rhode Island","Cold",128
+"254",2016,"Rhode Island","Fog",499
+"255",2016,"Rhode Island","Precipitation",28
+"256",2016,"Rhode Island","Rain",1765
+"257",2016,"Rhode Island","Snow",268
+"258",2016,"Rhode Island","Storm",3
+"259",2016,"South Carolina","Cold",553
+"260",2016,"South Carolina","Fog",7356
+"261",2016,"South Carolina","Hail",1
+"262",2016,"South Carolina","Precipitation",246
+"263",2016,"South Carolina","Rain",18643
+"264",2016,"South Carolina","Snow",203
+"265",2016,"South Carolina","Storm",40
+"266",2016,"South Dakota","Cold",422
+"267",2016,"South Dakota","Fog",2195
+"268",2016,"South Dakota","Hail",1
+"269",2016,"South Dakota","Precipitation",107
+"270",2016,"South Dakota","Rain",6088
+"271",2016,"South Dakota","Snow",3524
+"272",2016,"South Dakota","Storm",441
+"273",2016,"Tennessee","Cold",535
+"274",2016,"Tennessee","Fog",1279
+"275",2016,"Tennessee","Hail",13
+"276",2016,"Tennessee","Precipitation",113
+"277",2016,"Tennessee","Rain",5268
+"278",2016,"Tennessee","Snow",381
+"279",2016,"Tennessee","Storm",9
+"280",2016,"Texas","Cold",2910
+"281",2016,"Texas","Fog",20614
+"282",2016,"Texas","Hail",25
+"283",2016,"Texas","Precipitation",962
+"284",2016,"Texas","Rain",66118
+"285",2016,"Texas","Snow",418
+"286",2016,"Texas","Storm",506
+"287",2016,"Utah","Cold",243
+"288",2016,"Utah","Fog",1448
+"289",2016,"Utah","Hail",21
+"290",2016,"Utah","Precipitation",12
+"291",2016,"Utah","Rain",3219
+"292",2016,"Utah","Snow",1986
+"293",2016,"Utah","Storm",92
+"294",2016,"Vermont","Cold",171
+"295",2016,"Vermont","Fog",1641
+"296",2016,"Vermont","Precipitation",45
+"297",2016,"Vermont","Rain",3991
+"298",2016,"Vermont","Snow",2032
+"299",2016,"Virginia","Cold",1229
+"300",2016,"Virginia","Fog",6568
+"301",2016,"Virginia","Hail",11
+"302",2016,"Virginia","Precipitation",426
+"303",2016,"Virginia","Rain",26110
+"304",2016,"Virginia","Snow",2567
+"305",2016,"Virginia","Storm",90
+"306",2016,"Washington","Cold",353
+"307",2016,"Washington","Fog",6755
+"308",2016,"Washington","Hail",7
+"309",2016,"Washington","Precipitation",106
+"310",2016,"Washington","Rain",22418
+"311",2016,"Washington","Snow",2360
+"312",2016,"Washington","Storm",43
+"313",2016,"West Virginia","Cold",201
+"314",2016,"West Virginia","Fog",3204
+"315",2016,"West Virginia","Hail",7
+"316",2016,"West Virginia","Precipitation",76
+"317",2016,"West Virginia","Rain",7732
+"318",2016,"West Virginia","Snow",2173
+"319",2016,"West Virginia","Storm",7
+"320",2016,"Wisconsin","Cold",2092
+"321",2016,"Wisconsin","Fog",8669
+"322",2016,"Wisconsin","Hail",15
+"323",2016,"Wisconsin","Precipitation",307
+"324",2016,"Wisconsin","Rain",25222
+"325",2016,"Wisconsin","Snow",11860
+"326",2016,"Wisconsin","Storm",54
+"327",2016,"Wyoming","Cold",1468
+"328",2016,"Wyoming","Fog",3160
+"329",2016,"Wyoming","Hail",10
+"330",2016,"Wyoming","Precipitation",193
+"331",2016,"Wyoming","Rain",11854
+"332",2016,"Wyoming","Snow",9992
+"333",2016,"Wyoming","Storm",1040
+"334",2017,"Alabama","Cold",893
+"335",2017,"Alabama","Fog",5893
+"336",2017,"Alabama","Hail",1
+"337",2017,"Alabama","Precipitation",376
+"338",2017,"Alabama","Rain",22591
+"339",2017,"Alabama","Snow",199
+"340",2017,"Alabama","Storm",11
+"341",2017,"Arizona","Cold",344
+"342",2017,"Arizona","Fog",1106
+"343",2017,"Arizona","Precipitation",28
+"344",2017,"Arizona","Rain",5591
+"345",2017,"Arizona","Snow",883
+"346",2017,"Arizona","Storm",110
+"347",2017,"Arkansas","Cold",646
+"348",2017,"Arkansas","Fog",4132
+"349",2017,"Arkansas","Precipitation",318
+"350",2017,"Arkansas","Rain",13745
+"351",2017,"Arkansas","Snow",229
+"352",2017,"Arkansas","Storm",30
+"353",2017,"California","Cold",2114
+"354",2017,"California","Fog",18652
+"355",2017,"California","Hail",7
+"356",2017,"California","Precipitation",446
+"357",2017,"California","Rain",24152
+"358",2017,"California","Snow",2221
+"359",2017,"California","Storm",423
+"360",2017,"Colorado","Cold",681
+"361",2017,"Colorado","Fog",6046
+"362",2017,"Colorado","Hail",23
+"363",2017,"Colorado","Precipitation",52
+"364",2017,"Colorado","Rain",16528
+"365",2017,"Colorado","Snow",8607
+"366",2017,"Colorado","Storm",2038
+"367",2017,"Connecticut","Cold",115
+"368",2017,"Connecticut","Fog",988
+"369",2017,"Connecticut","Hail",16
+"370",2017,"Connecticut","Precipitation",33
+"371",2017,"Connecticut","Rain",4067
+"372",2017,"Connecticut","Snow",650
+"373",2017,"Connecticut","Storm",5
+"374",2017,"Delaware","Cold",16
+"375",2017,"Delaware","Fog",275
+"376",2017,"Delaware","Precipitation",14
+"377",2017,"Delaware","Rain",1743
+"378",2017,"Delaware","Snow",181
+"379",2017,"Delaware","Storm",4
+"380",2017,"Florida","Cold",1353
+"381",2017,"Florida","Fog",9999
+"382",2017,"Florida","Hail",2
+"383",2017,"Florida","Precipitation",882
+"384",2017,"Florida","Rain",43560
+"385",2017,"Florida","Snow",18
+"386",2017,"Florida","Storm",261
+"387",2017,"Georgia","Cold",931
+"388",2017,"Georgia","Fog",9025
+"389",2017,"Georgia","Hail",8
+"390",2017,"Georgia","Precipitation",204
+"391",2017,"Georgia","Rain",29671
+"392",2017,"Georgia","Snow",349
+"393",2017,"Georgia","Storm",36
+"394",2017,"Idaho","Cold",395
+"395",2017,"Idaho","Fog",4193
+"396",2017,"Idaho","Hail",5
+"397",2017,"Idaho","Precipitation",30
+"398",2017,"Idaho","Rain",5812
+"399",2017,"Idaho","Snow",5420
+"400",2017,"Idaho","Storm",39
+"401",2017,"Illinois","Cold",806
+"402",2017,"Illinois","Fog",5556
+"403",2017,"Illinois","Hail",20
+"404",2017,"Illinois","Precipitation",264
+"405",2017,"Illinois","Rain",27849
+"406",2017,"Illinois","Snow",2698
+"407",2017,"Illinois","Storm",115
+"408",2017,"Indiana","Cold",447
+"409",2017,"Indiana","Fog",3971
+"410",2017,"Indiana","Hail",9
+"411",2017,"Indiana","Precipitation",281
+"412",2017,"Indiana","Rain",14221
+"413",2017,"Indiana","Snow",2429
+"414",2017,"Indiana","Storm",56
+"415",2017,"Iowa","Cold",808
+"416",2017,"Iowa","Fog",6762
+"417",2017,"Iowa","Hail",7
+"418",2017,"Iowa","Precipitation",331
+"419",2017,"Iowa","Rain",18363
+"420",2017,"Iowa","Snow",3696
+"421",2017,"Iowa","Storm",185
+"422",2017,"Kansas","Cold",722
+"423",2017,"Kansas","Fog",2646
+"424",2017,"Kansas","Hail",4
+"425",2017,"Kansas","Precipitation",168
+"426",2017,"Kansas","Rain",12068
+"427",2017,"Kansas","Snow",721
+"428",2017,"Kansas","Storm",174
+"429",2017,"Kentucky","Cold",346
+"430",2017,"Kentucky","Fog",2584
+"431",2017,"Kentucky","Hail",3
+"432",2017,"Kentucky","Precipitation",220
+"433",2017,"Kentucky","Rain",12821
+"434",2017,"Kentucky","Snow",624
+"435",2017,"Kentucky","Storm",12
+"436",2017,"Louisiana","Cold",804
+"437",2017,"Louisiana","Fog",7576
+"438",2017,"Louisiana","Hail",17
+"439",2017,"Louisiana","Precipitation",503
+"440",2017,"Louisiana","Rain",24936
+"441",2017,"Louisiana","Snow",183
+"442",2017,"Louisiana","Storm",41
+"443",2017,"Maine","Cold",356
+"444",2017,"Maine","Fog",2711
+"445",2017,"Maine","Hail",11
+"446",2017,"Maine","Precipitation",107
+"447",2017,"Maine","Rain",6485
+"448",2017,"Maine","Snow",3240
+"449",2017,"Maine","Storm",3
+"450",2017,"Maryland","Cold",401
+"451",2017,"Maryland","Fog",2611
+"452",2017,"Maryland","Hail",23
+"453",2017,"Maryland","Precipitation",95
+"454",2017,"Maryland","Rain",6973
+"455",2017,"Maryland","Snow",684
+"456",2017,"Maryland","Storm",18
+"457",2017,"Massachusetts","Cold",478
+"458",2017,"Massachusetts","Fog",3497
+"459",2017,"Massachusetts","Hail",9
+"460",2017,"Massachusetts","Precipitation",92
+"461",2017,"Massachusetts","Rain",10443
+"462",2017,"Massachusetts","Snow",2260
+"463",2017,"Massachusetts","Storm",50
+"464",2017,"Michigan","Cold",518
+"465",2017,"Michigan","Fog",11552
+"466",2017,"Michigan","Hail",32
+"467",2017,"Michigan","Precipitation",258
+"468",2017,"Michigan","Rain",32225
+"469",2017,"Michigan","Snow",18507
+"470",2017,"Michigan","Storm",81
+"471",2017,"Minnesota","Cold",2791
+"472",2017,"Minnesota","Fog",12974
+"473",2017,"Minnesota","Hail",15
+"474",2017,"Minnesota","Precipitation",306
+"475",2017,"Minnesota","Rain",35060
+"476",2017,"Minnesota","Snow",14874
+"477",2017,"Minnesota","Storm",243
+"478",2017,"Mississippi","Cold",765
+"479",2017,"Mississippi","Fog",4889
+"480",2017,"Mississippi","Hail",10
+"481",2017,"Mississippi","Precipitation",390
+"482",2017,"Mississippi","Rain",13164
+"483",2017,"Mississippi","Snow",152
+"484",2017,"Mississippi","Storm",19
+"485",2017,"Missouri","Cold",251
+"486",2017,"Missouri","Fog",3164
+"487",2017,"Missouri","Hail",14
+"488",2017,"Missouri","Precipitation",161
+"489",2017,"Missouri","Rain",13269
+"490",2017,"Missouri","Snow",674
+"491",2017,"Missouri","Storm",40
+"492",2017,"Montana","Cold",539
+"493",2017,"Montana","Fog",4120
+"494",2017,"Montana","Hail",6
+"495",2017,"Montana","Precipitation",28
+"496",2017,"Montana","Rain",4790
+"497",2017,"Montana","Snow",6624
+"498",2017,"Montana","Storm",255
+"499",2017,"Nebraska","Cold",311
+"500",2017,"Nebraska","Fog",2599
+"501",2017,"Nebraska","Hail",9
+"502",2017,"Nebraska","Precipitation",120
+"503",2017,"Nebraska","Rain",13989
+"504",2017,"Nebraska","Snow",2874
+"505",2017,"Nebraska","Storm",219
+"506",2017,"Nevada","Cold",141
+"507",2017,"Nevada","Fog",731
+"508",2017,"Nevada","Hail",5
+"509",2017,"Nevada","Precipitation",15
+"510",2017,"Nevada","Rain",2936
+"511",2017,"Nevada","Snow",1336
+"512",2017,"Nevada","Storm",112
+"513",2017,"New Hampshire","Cold",86
+"514",2017,"New Hampshire","Fog",2594
+"515",2017,"New Hampshire","Hail",7
+"516",2017,"New Hampshire","Precipitation",17
+"517",2017,"New Hampshire","Rain",5177
+"518",2017,"New Hampshire","Snow",2572
+"519",2017,"New Hampshire","Storm",398
+"520",2017,"New Jersey","Cold",167
+"521",2017,"New Jersey","Fog",1723
+"522",2017,"New Jersey","Hail",16
+"523",2017,"New Jersey","Precipitation",67
+"524",2017,"New Jersey","Rain",7557
+"525",2017,"New Jersey","Snow",893
+"526",2017,"New Jersey","Storm",9
+"527",2017,"New Mexico","Cold",534
+"528",2017,"New Mexico","Fog",1926
+"529",2017,"New Mexico","Hail",8
+"530",2017,"New Mexico","Precipitation",78
+"531",2017,"New Mexico","Rain",9509
+"532",2017,"New Mexico","Snow",1748
+"533",2017,"New Mexico","Storm",419
+"534",2017,"New York","Cold",245
+"535",2017,"New York","Fog",5047
+"536",2017,"New York","Hail",56
+"537",2017,"New York","Precipitation",1407
+"538",2017,"New York","Rain",18287
+"539",2017,"New York","Snow",6450
+"540",2017,"New York","Storm",43
+"541",2017,"North Carolina","Cold",980
+"542",2017,"North Carolina","Fog",9120
+"543",2017,"North Carolina","Hail",27
+"544",2017,"North Carolina","Precipitation",568
+"545",2017,"North Carolina","Rain",36650
+"546",2017,"North Carolina","Snow",1227
+"547",2017,"North Carolina","Storm",43
+"548",2017,"North Dakota","Cold",2772
+"549",2017,"North Dakota","Fog",4191
+"550",2017,"North Dakota","Hail",2
+"551",2017,"North Dakota","Precipitation",51
+"552",2017,"North Dakota","Rain",5367
+"553",2017,"North Dakota","Snow",7224
+"554",2017,"North Dakota","Storm",536
+"555",2017,"Ohio","Cold",598
+"556",2017,"Ohio","Fog",4922
+"557",2017,"Ohio","Hail",14
+"558",2017,"Ohio","Precipitation",236
+"559",2017,"Ohio","Rain",20405
+"560",2017,"Ohio","Snow",4474
+"561",2017,"Ohio","Storm",50
+"562",2017,"Oklahoma","Cold",732
+"563",2017,"Oklahoma","Fog",5075
+"564",2017,"Oklahoma","Hail",9
+"565",2017,"Oklahoma","Precipitation",283
+"566",2017,"Oklahoma","Rain",18513
+"567",2017,"Oklahoma","Snow",639
+"568",2017,"Oklahoma","Storm",130
+"569",2017,"Oregon","Cold",326
+"570",2017,"Oregon","Fog",6067
+"571",2017,"Oregon","Hail",6
+"572",2017,"Oregon","Precipitation",86
+"573",2017,"Oregon","Rain",16792
+"574",2017,"Oregon","Snow",2815
+"575",2017,"Oregon","Storm",89
+"576",2017,"Pennsylvania","Cold",216
+"577",2017,"Pennsylvania","Fog",5615
+"578",2017,"Pennsylvania","Hail",14
+"579",2017,"Pennsylvania","Precipitation",369
+"580",2017,"Pennsylvania","Rain",17081
+"581",2017,"Pennsylvania","Snow",4562
+"582",2017,"Pennsylvania","Storm",24
+"583",2017,"Rhode Island","Cold",54
+"584",2017,"Rhode Island","Fog",748
+"585",2017,"Rhode Island","Hail",7
+"586",2017,"Rhode Island","Precipitation",15
+"587",2017,"Rhode Island","Rain",2411
+"588",2017,"Rhode Island","Snow",376
+"589",2017,"Rhode Island","Storm",2
+"590",2017,"South Carolina","Cold",532
+"591",2017,"South Carolina","Fog",8179
+"592",2017,"South Carolina","Hail",6
+"593",2017,"South Carolina","Precipitation",260
+"594",2017,"South Carolina","Rain",21575
+"595",2017,"South Carolina","Snow",315
+"596",2017,"South Carolina","Storm",32
+"597",2017,"South Dakota","Cold",398
+"598",2017,"South Dakota","Fog",1639
+"599",2017,"South Dakota","Hail",2
+"600",2017,"South Dakota","Precipitation",81
+"601",2017,"South Dakota","Rain",5805
+"602",2017,"South Dakota","Snow",2897
+"603",2017,"South Dakota","Storm",354
+"604",2017,"Tennessee","Cold",227
+"605",2017,"Tennessee","Fog",2840
+"606",2017,"Tennessee","Hail",10
+"607",2017,"Tennessee","Precipitation",292
+"608",2017,"Tennessee","Rain",6439
+"609",2017,"Tennessee","Snow",204
+"610",2017,"Tennessee","Storm",11
+"611",2017,"Texas","Cold",2875
+"612",2017,"Texas","Fog",18955
+"613",2017,"Texas","Hail",21
+"614",2017,"Texas","Precipitation",969
+"615",2017,"Texas","Rain",59757
+"616",2017,"Texas","Snow",894
+"617",2017,"Texas","Storm",593
+"618",2017,"Utah","Cold",231
+"619",2017,"Utah","Fog",1605
+"620",2017,"Utah","Hail",20
+"621",2017,"Utah","Precipitation",14
+"622",2017,"Utah","Rain",3102
+"623",2017,"Utah","Snow",2075
+"624",2017,"Utah","Storm",139
+"625",2017,"Vermont","Cold",106
+"626",2017,"Vermont","Fog",1935
+"627",2017,"Vermont","Hail",4
+"628",2017,"Vermont","Precipitation",48
+"629",2017,"Vermont","Rain",5055
+"630",2017,"Vermont","Snow",2449
+"631",2017,"Vermont","Storm",2
+"632",2017,"Virginia","Cold",927
+"633",2017,"Virginia","Fog",5767
+"634",2017,"Virginia","Hail",23
+"635",2017,"Virginia","Precipitation",413
+"636",2017,"Virginia","Rain",26844
+"637",2017,"Virginia","Snow",1804
+"638",2017,"Virginia","Storm",21
+"639",2017,"Washington","Cold",372
+"640",2017,"Washington","Fog",7518
+"641",2017,"Washington","Hail",39
+"642",2017,"Washington","Precipitation",56
+"643",2017,"Washington","Rain",21322
+"644",2017,"Washington","Snow",4246
+"645",2017,"Washington","Storm",49
+"646",2017,"West Virginia","Cold",373
+"647",2017,"West Virginia","Fog",3067
+"648",2017,"West Virginia","Hail",2
+"649",2017,"West Virginia","Precipitation",84
+"650",2017,"West Virginia","Rain",8963
+"651",2017,"West Virginia","Snow",1573
+"652",2017,"West Virginia","Storm",4
+"653",2017,"Wisconsin","Cold",740
+"654",2017,"Wisconsin","Fog",8425
+"655",2017,"Wisconsin","Hail",17
+"656",2017,"Wisconsin","Precipitation",352
+"657",2017,"Wisconsin","Rain",27860
+"658",2017,"Wisconsin","Snow",9967
+"659",2017,"Wisconsin","Storm",80
+"660",2017,"Wyoming","Cold",1489
+"661",2017,"Wyoming","Fog",4353
+"662",2017,"Wyoming","Hail",4
+"663",2017,"Wyoming","Precipitation",72
+"664",2017,"Wyoming","Rain",12532
+"665",2017,"Wyoming","Snow",10362
+"666",2017,"Wyoming","Storm",1399
+"667",2018,"Alabama","Cold",884
+"668",2018,"Alabama","Fog",5551
+"669",2018,"Alabama","Hail",36
+"670",2018,"Alabama","Precipitation",323
+"671",2018,"Alabama","Rain",23966
+"672",2018,"Alabama","Snow",157
+"673",2018,"Alabama","Storm",13
+"674",2018,"Arizona","Cold",298
+"675",2018,"Arizona","Fog",1382
+"676",2018,"Arizona","Hail",3
+"677",2018,"Arizona","Precipitation",54
+"678",2018,"Arizona","Rain",6234
+"679",2018,"Arizona","Snow",922
+"680",2018,"Arizona","Storm",134
+"681",2018,"Arkansas","Cold",701
+"682",2018,"Arkansas","Fog",4956
+"683",2018,"Arkansas","Hail",2
+"684",2018,"Arkansas","Precipitation",224
+"685",2018,"Arkansas","Rain",17921
+"686",2018,"Arkansas","Snow",501
+"687",2018,"Arkansas","Storm",16
+"688",2018,"California","Cold",1757
+"689",2018,"California","Fog",21977
+"690",2018,"California","Hail",4
+"691",2018,"California","Precipitation",217
+"692",2018,"California","Rain",18979
+"693",2018,"California","Snow",1557
+"694",2018,"California","Storm",203
+"695",2018,"Colorado","Cold",433
+"696",2018,"Colorado","Fog",5294
+"697",2018,"Colorado","Hail",33
+"698",2018,"Colorado","Precipitation",48
+"699",2018,"Colorado","Rain",13777
+"700",2018,"Colorado","Snow",8554
+"701",2018,"Colorado","Storm",1858
+"702",2018,"Connecticut","Cold",48
+"703",2018,"Connecticut","Fog",1336
+"704",2018,"Connecticut","Hail",11
+"705",2018,"Connecticut","Precipitation",55
+"706",2018,"Connecticut","Rain",5348
+"707",2018,"Connecticut","Snow",914
+"708",2018,"Connecticut","Storm",5
+"709",2018,"Delaware","Cold",28
+"710",2018,"Delaware","Fog",260
+"711",2018,"Delaware","Hail",9
+"712",2018,"Delaware","Precipitation",16
+"713",2018,"Delaware","Rain",2217
+"714",2018,"Delaware","Snow",162
+"715",2018,"Delaware","Storm",8
+"716",2018,"Florida","Cold",2024
+"717",2018,"Florida","Fog",8616
+"718",2018,"Florida","Hail",6
+"719",2018,"Florida","Precipitation",882
+"720",2018,"Florida","Rain",48431
+"721",2018,"Florida","Snow",45
+"722",2018,"Florida","Storm",87
+"723",2018,"Georgia","Cold",1448
+"724",2018,"Georgia","Fog",7777
+"725",2018,"Georgia","Hail",4
+"726",2018,"Georgia","Precipitation",276
+"727",2018,"Georgia","Rain",36794
+"728",2018,"Georgia","Snow",233
+"729",2018,"Georgia","Storm",15
+"730",2018,"Idaho","Cold",170
+"731",2018,"Idaho","Fog",3428
+"732",2018,"Idaho","Hail",1
+"733",2018,"Idaho","Precipitation",45
+"734",2018,"Idaho","Rain",5029
+"735",2018,"Idaho","Snow",4611
+"736",2018,"Idaho","Storm",26
+"737",2018,"Illinois","Cold",752
+"738",2018,"Illinois","Fog",6651
+"739",2018,"Illinois","Hail",13
+"740",2018,"Illinois","Precipitation",322
+"741",2018,"Illinois","Rain",31241
+"742",2018,"Illinois","Snow",5666
+"743",2018,"Illinois","Storm",39
+"744",2018,"Indiana","Cold",687
+"745",2018,"Indiana","Fog",4582
+"746",2018,"Indiana","Hail",7
+"747",2018,"Indiana","Precipitation",103
+"748",2018,"Indiana","Rain",14566
+"749",2018,"Indiana","Snow",3925
+"750",2018,"Indiana","Storm",34
+"751",2018,"Iowa","Cold",1682
+"752",2018,"Iowa","Fog",7707
+"753",2018,"Iowa","Hail",16
+"754",2018,"Iowa","Precipitation",554
+"755",2018,"Iowa","Rain",21793
+"756",2018,"Iowa","Snow",8290
+"757",2018,"Iowa","Storm",153
+"758",2018,"Kansas","Cold",531
+"759",2018,"Kansas","Fog",2652
+"760",2018,"Kansas","Hail",25
+"761",2018,"Kansas","Precipitation",200
+"762",2018,"Kansas","Rain",12604
+"763",2018,"Kansas","Snow",1835
+"764",2018,"Kansas","Storm",304
+"765",2018,"Kentucky","Cold",174
+"766",2018,"Kentucky","Fog",2499
+"767",2018,"Kentucky","Hail",22
+"768",2018,"Kentucky","Precipitation",309
+"769",2018,"Kentucky","Rain",15826
+"770",2018,"Kentucky","Snow",2013
+"771",2018,"Kentucky","Storm",15
+"772",2018,"Louisiana","Cold",590
+"773",2018,"Louisiana","Fog",7075
+"774",2018,"Louisiana","Hail",6
+"775",2018,"Louisiana","Precipitation",541
+"776",2018,"Louisiana","Rain",27765
+"777",2018,"Louisiana","Snow",163
+"778",2018,"Louisiana","Storm",24
+"779",2018,"Maine","Cold",365
+"780",2018,"Maine","Fog",3124
+"781",2018,"Maine","Hail",12
+"782",2018,"Maine","Precipitation",67
+"783",2018,"Maine","Rain",6876
+"784",2018,"Maine","Snow",3769
+"785",2018,"Maine","Storm",3
+"786",2018,"Maryland","Cold",402
+"787",2018,"Maryland","Fog",2476
+"788",2018,"Maryland","Hail",26
+"789",2018,"Maryland","Precipitation",241
+"790",2018,"Maryland","Rain",9425
+"791",2018,"Maryland","Snow",658
+"792",2018,"Maryland","Storm",49
+"793",2018,"Massachusetts","Cold",365
+"794",2018,"Massachusetts","Fog",3448
+"795",2018,"Massachusetts","Hail",13
+"796",2018,"Massachusetts","Precipitation",111
+"797",2018,"Massachusetts","Rain",12383
+"798",2018,"Massachusetts","Snow",2630
+"799",2018,"Massachusetts","Storm",59
+"800",2018,"Michigan","Cold",575
+"801",2018,"Michigan","Fog",11255
+"802",2018,"Michigan","Hail",193
+"803",2018,"Michigan","Precipitation",213
+"804",2018,"Michigan","Rain",28272
+"805",2018,"Michigan","Snow",18928
+"806",2018,"Michigan","Storm",36
+"807",2018,"Minnesota","Cold",3289
+"808",2018,"Minnesota","Fog",12775
+"809",2018,"Minnesota","Hail",13
+"810",2018,"Minnesota","Precipitation",318
+"811",2018,"Minnesota","Rain",30618
+"812",2018,"Minnesota","Snow",20109
+"813",2018,"Minnesota","Storm",110
+"814",2018,"Mississippi","Cold",1828
+"815",2018,"Mississippi","Fog",5558
+"816",2018,"Mississippi","Precipitation",219
+"817",2018,"Mississippi","Rain",14721
+"818",2018,"Mississippi","Snow",167
+"819",2018,"Mississippi","Storm",10
+"820",2018,"Missouri","Cold",173
+"821",2018,"Missouri","Fog",3297
+"822",2018,"Missouri","Hail",31
+"823",2018,"Missouri","Precipitation",173
+"824",2018,"Missouri","Rain",13880
+"825",2018,"Missouri","Snow",1950
+"826",2018,"Missouri","Storm",13
+"827",2018,"Montana","Cold",466
+"828",2018,"Montana","Fog",3771
+"829",2018,"Montana","Hail",8
+"830",2018,"Montana","Precipitation",51
+"831",2018,"Montana","Rain",5355
+"832",2018,"Montana","Snow",6566
+"833",2018,"Montana","Storm",216
+"834",2018,"Nebraska","Cold",336
+"835",2018,"Nebraska","Fog",3218
+"836",2018,"Nebraska","Hail",18
+"837",2018,"Nebraska","Precipitation",128
+"838",2018,"Nebraska","Rain",14767
+"839",2018,"Nebraska","Snow",5399
+"840",2018,"Nebraska","Storm",309
+"841",2018,"Nevada","Cold",202
+"842",2018,"Nevada","Fog",822
+"843",2018,"Nevada","Hail",3
+"844",2018,"Nevada","Precipitation",21
+"845",2018,"Nevada","Rain",2564
+"846",2018,"Nevada","Snow",1283
+"847",2018,"Nevada","Storm",79
+"848",2018,"New Hampshire","Cold",72
+"849",2018,"New Hampshire","Fog",2635
+"850",2018,"New Hampshire","Hail",21
+"851",2018,"New Hampshire","Precipitation",43
+"852",2018,"New Hampshire","Rain",5803
+"853",2018,"New Hampshire","Snow",2602
+"854",2018,"New Hampshire","Storm",349
+"855",2018,"New Jersey","Cold",333
+"856",2018,"New Jersey","Fog",1823
+"857",2018,"New Jersey","Hail",19
+"858",2018,"New Jersey","Precipitation",114
+"859",2018,"New Jersey","Rain",9388
+"860",2018,"New Jersey","Snow",1073
+"861",2018,"New Jersey","Storm",12
+"862",2018,"New Mexico","Cold",220
+"863",2018,"New Mexico","Fog",1904
+"864",2018,"New Mexico","Hail",8
+"865",2018,"New Mexico","Precipitation",47
+"866",2018,"New Mexico","Rain",8086
+"867",2018,"New Mexico","Snow",1504
+"868",2018,"New Mexico","Storm",364
+"869",2018,"New York","Cold",376
+"870",2018,"New York","Fog",5364
+"871",2018,"New York","Hail",58
+"872",2018,"New York","Precipitation",912
+"873",2018,"New York","Rain",20000
+"874",2018,"New York","Snow",8247
+"875",2018,"New York","Storm",44
+"876",2018,"North Carolina","Cold",814
+"877",2018,"North Carolina","Fog",8218
+"878",2018,"North Carolina","Hail",22
+"879",2018,"North Carolina","Precipitation",587
+"880",2018,"North Carolina","Rain",43980
+"881",2018,"North Carolina","Snow",1679
+"882",2018,"North Carolina","Storm",111
+"883",2018,"North Dakota","Cold",5570
+"884",2018,"North Dakota","Fog",6773
+"885",2018,"North Dakota","Hail",13
+"886",2018,"North Dakota","Precipitation",51
+"887",2018,"North Dakota","Rain",5662
+"888",2018,"North Dakota","Snow",7995
+"889",2018,"North Dakota","Storm",104
+"890",2018,"Ohio","Cold",476
+"891",2018,"Ohio","Fog",4911
+"892",2018,"Ohio","Hail",26
+"893",2018,"Ohio","Precipitation",233
+"894",2018,"Ohio","Rain",21282
+"895",2018,"Ohio","Snow",5948
+"896",2018,"Ohio","Storm",22
+"897",2018,"Oklahoma","Cold",585
+"898",2018,"Oklahoma","Fog",4905
+"899",2018,"Oklahoma","Hail",22
+"900",2018,"Oklahoma","Precipitation",297
+"901",2018,"Oklahoma","Rain",20084
+"902",2018,"Oklahoma","Snow",731
+"903",2018,"Oklahoma","Storm",249
+"904",2018,"Oregon","Cold",223
+"905",2018,"Oregon","Fog",6128
+"906",2018,"Oregon","Hail",1
+"907",2018,"Oregon","Precipitation",26
+"908",2018,"Oregon","Rain",15308
+"909",2018,"Oregon","Snow",2013
+"910",2018,"Oregon","Storm",27
+"911",2018,"Pennsylvania","Cold",635
+"912",2018,"Pennsylvania","Fog",6447
+"913",2018,"Pennsylvania","Hail",22
+"914",2018,"Pennsylvania","Precipitation",250
+"915",2018,"Pennsylvania","Rain",21863
+"916",2018,"Pennsylvania","Snow",5747
+"917",2018,"Pennsylvania","Storm",27
+"918",2018,"Rhode Island","Cold",39
+"919",2018,"Rhode Island","Fog",855
+"920",2018,"Rhode Island","Hail",5
+"921",2018,"Rhode Island","Precipitation",12
+"922",2018,"Rhode Island","Rain",2934
+"923",2018,"Rhode Island","Snow",449
+"924",2018,"Rhode Island","Storm",15
+"925",2018,"South Carolina","Cold",418
+"926",2018,"South Carolina","Fog",8596
+"927",2018,"South Carolina","Hail",2
+"928",2018,"South Carolina","Precipitation",263
+"929",2018,"South Carolina","Rain",25535
+"930",2018,"South Carolina","Snow",239
+"931",2018,"South Carolina","Storm",11
+"932",2018,"South Dakota","Cold",325
+"933",2018,"South Dakota","Fog",2466
+"934",2018,"South Dakota","Hail",14
+"935",2018,"South Dakota","Precipitation",128
+"936",2018,"South Dakota","Rain",6459
+"937",2018,"South Dakota","Snow",4388
+"938",2018,"South Dakota","Storm",248
+"939",2018,"Tennessee","Cold",157
+"940",2018,"Tennessee","Fog",2768
+"941",2018,"Tennessee","Hail",15
+"942",2018,"Tennessee","Precipitation",520
+"943",2018,"Tennessee","Rain",7657
+"944",2018,"Tennessee","Snow",476
+"945",2018,"Tennessee","Storm",6
+"946",2018,"Texas","Cold",3114
+"947",2018,"Texas","Fog",17579
+"948",2018,"Texas","Hail",39
+"949",2018,"Texas","Precipitation",1367
+"950",2018,"Texas","Rain",73082
+"951",2018,"Texas","Snow",984
+"952",2018,"Texas","Storm",552
+"953",2018,"Utah","Cold",124
+"954",2018,"Utah","Fog",1237
+"955",2018,"Utah","Hail",7
+"956",2018,"Utah","Precipitation",13
+"957",2018,"Utah","Rain",2639
+"958",2018,"Utah","Snow",1542
+"959",2018,"Utah","Storm",179
+"960",2018,"Vermont","Cold",120
+"961",2018,"Vermont","Fog",1537
+"962",2018,"Vermont","Hail",7
+"963",2018,"Vermont","Precipitation",58
+"964",2018,"Vermont","Rain",4793
+"965",2018,"Vermont","Snow",2953
+"966",2018,"Vermont","Storm",1
+"967",2018,"Virginia","Cold",957
+"968",2018,"Virginia","Fog",6821
+"969",2018,"Virginia","Hail",22
+"970",2018,"Virginia","Precipitation",493
+"971",2018,"Virginia","Rain",34261
+"972",2018,"Virginia","Snow",2776
+"973",2018,"Virginia","Storm",94
+"974",2018,"Washington","Cold",226
+"975",2018,"Washington","Fog",7629
+"976",2018,"Washington","Hail",11
+"977",2018,"Washington","Precipitation",91
+"978",2018,"Washington","Rain",19969
+"979",2018,"Washington","Snow",2680
+"980",2018,"Washington","Storm",36
+"981",2018,"West Virginia","Cold",467
+"982",2018,"West Virginia","Fog",3158
+"983",2018,"West Virginia","Hail",9
+"984",2018,"West Virginia","Precipitation",112
+"985",2018,"West Virginia","Rain",10367
+"986",2018,"West Virginia","Snow",2579
+"987",2018,"West Virginia","Storm",4
+"988",2018,"Wisconsin","Cold",925
+"989",2018,"Wisconsin","Fog",8637
+"990",2018,"Wisconsin","Hail",26
+"991",2018,"Wisconsin","Precipitation",430
+"992",2018,"Wisconsin","Rain",23881
+"993",2018,"Wisconsin","Snow",12253
+"994",2018,"Wisconsin","Storm",17
+"995",2018,"Wyoming","Cold",755
+"996",2018,"Wyoming","Fog",3997
+"997",2018,"Wyoming","Hail",13
+"998",2018,"Wyoming","Precipitation",121
+"999",2018,"Wyoming","Rain",10613
+"1000",2018,"Wyoming","Snow",10481
+"1001",2018,"Wyoming","Storm",851
+"1002",2019,"Alabama","Cold",427
+"1003",2019,"Alabama","Fog",5800
+"1004",2019,"Alabama","Hail",5
+"1005",2019,"Alabama","Precipitation",946
+"1006",2019,"Alabama","Rain",19674
+"1007",2019,"Alabama","Snow",148
+"1008",2019,"Alabama","Storm",12
+"1009",2019,"Arizona","Cold",297
+"1010",2019,"Arizona","Fog",1882
+"1011",2019,"Arizona","Hail",4
+"1012",2019,"Arizona","Precipitation",99
+"1013",2019,"Arizona","Rain",6251
+"1014",2019,"Arizona","Snow",2049
+"1015",2019,"Arizona","Storm",136
+"1016",2019,"Arkansas","Cold",477
+"1017",2019,"Arkansas","Fog",6369
+"1018",2019,"Arkansas","Hail",3
+"1019",2019,"Arkansas","Precipitation",1102
+"1020",2019,"Arkansas","Rain",16987
+"1021",2019,"Arkansas","Snow",462
+"1022",2019,"Arkansas","Storm",27
+"1023",2019,"California","Cold",2156
+"1024",2019,"California","Fog",23607
+"1025",2019,"California","Hail",6
+"1026",2019,"California","Precipitation",484
+"1027",2019,"California","Rain",30406
+"1028",2019,"California","Snow",3101
+"1029",2019,"California","Storm",395
+"1030",2019,"Colorado","Cold",756
+"1031",2019,"Colorado","Fog",5735
+"1032",2019,"Colorado","Hail",8
+"1033",2019,"Colorado","Precipitation",214
+"1034",2019,"Colorado","Rain",10824
+"1035",2019,"Colorado","Snow",11855
+"1036",2019,"Colorado","Storm",1020
+"1037",2019,"Connecticut","Cold",28
+"1038",2019,"Connecticut","Fog",1841
+"1039",2019,"Connecticut","Hail",14
+"1040",2019,"Connecticut","Precipitation",145
+"1041",2019,"Connecticut","Rain",4853
+"1042",2019,"Connecticut","Snow",848
+"1043",2019,"Connecticut","Storm",4
+"1044",2019,"Delaware","Cold",32
+"1045",2019,"Delaware","Fog",353
+"1046",2019,"Delaware","Hail",3
+"1047",2019,"Delaware","Precipitation",66
+"1048",2019,"Delaware","Rain",1748
+"1049",2019,"Delaware","Snow",142
+"1050",2019,"Delaware","Storm",6
+"1051",2019,"Florida","Cold",1537
+"1052",2019,"Florida","Fog",10226
+"1053",2019,"Florida","Precipitation",2941
+"1054",2019,"Florida","Rain",36832
+"1055",2019,"Florida","Snow",5
+"1056",2019,"Florida","Storm",75
+"1057",2019,"Georgia","Cold",1040
+"1058",2019,"Georgia","Fog",9359
+"1059",2019,"Georgia","Hail",1
+"1060",2019,"Georgia","Precipitation",718
+"1061",2019,"Georgia","Rain",26574
+"1062",2019,"Georgia","Snow",131
+"1063",2019,"Georgia","Storm",13
+"1064",2019,"Idaho","Cold",207
+"1065",2019,"Idaho","Fog",3361
+"1066",2019,"Idaho","Hail",1
+"1067",2019,"Idaho","Precipitation",43
+"1068",2019,"Idaho","Rain",5518
+"1069",2019,"Idaho","Snow",5073
+"1070",2019,"Idaho","Storm",37
+"1071",2019,"Illinois","Cold",694
+"1072",2019,"Illinois","Fog",8560
+"1073",2019,"Illinois","Hail",14
+"1074",2019,"Illinois","Precipitation",1533
+"1075",2019,"Illinois","Rain",28487
+"1076",2019,"Illinois","Snow",4968
+"1077",2019,"Illinois","Storm",205
+"1078",2019,"Indiana","Cold",1212
+"1079",2019,"Indiana","Fog",4800
+"1080",2019,"Indiana","Hail",6
+"1081",2019,"Indiana","Precipitation",449
+"1082",2019,"Indiana","Rain",13591
+"1083",2019,"Indiana","Snow",3510
+"1084",2019,"Indiana","Storm",116
+"1085",2019,"Iowa","Cold",1195
+"1086",2019,"Iowa","Fog",11344
+"1087",2019,"Iowa","Hail",9
+"1088",2019,"Iowa","Precipitation",819
+"1089",2019,"Iowa","Rain",19953
+"1090",2019,"Iowa","Snow",8110
+"1091",2019,"Iowa","Storm",284
+"1092",2019,"Kansas","Cold",192
+"1093",2019,"Kansas","Fog",4644
+"1094",2019,"Kansas","Hail",17
+"1095",2019,"Kansas","Precipitation",1381
+"1096",2019,"Kansas","Rain",11804
+"1097",2019,"Kansas","Snow",2359
+"1098",2019,"Kansas","Storm",297
+"1099",2019,"Kentucky","Cold",219
+"1100",2019,"Kentucky","Fog",3210
+"1101",2019,"Kentucky","Hail",21
+"1102",2019,"Kentucky","Precipitation",643
+"1103",2019,"Kentucky","Rain",14389
+"1104",2019,"Kentucky","Snow",1187
+"1105",2019,"Kentucky","Storm",14
+"1106",2019,"Louisiana","Cold",613
+"1107",2019,"Louisiana","Fog",8150
+"1108",2019,"Louisiana","Hail",8
+"1109",2019,"Louisiana","Precipitation",1535
+"1110",2019,"Louisiana","Rain",20457
+"1111",2019,"Louisiana","Snow",33
+"1112",2019,"Louisiana","Storm",42
+"1113",2019,"Maine","Cold",150
+"1114",2019,"Maine","Fog",3902
+"1115",2019,"Maine","Hail",4
+"1116",2019,"Maine","Precipitation",118
+"1117",2019,"Maine","Rain",7198
+"1118",2019,"Maine","Snow",3847
+"1119",2019,"Maine","Storm",12
+"1120",2019,"Maryland","Cold",404
+"1121",2019,"Maryland","Fog",2478
+"1122",2019,"Maryland","Hail",11
+"1123",2019,"Maryland","Precipitation",230
+"1124",2019,"Maryland","Rain",6550
+"1125",2019,"Maryland","Snow",764
+"1126",2019,"Maryland","Storm",40
+"1127",2019,"Massachusetts","Cold",185
+"1128",2019,"Massachusetts","Fog",5838
+"1129",2019,"Massachusetts","Hail",23
+"1130",2019,"Massachusetts","Precipitation",257
+"1131",2019,"Massachusetts","Rain",11586
+"1132",2019,"Massachusetts","Snow",2560
+"1133",2019,"Massachusetts","Storm",53
+"1134",2019,"Michigan","Cold",977
+"1135",2019,"Michigan","Fog",15710
+"1136",2019,"Michigan","Hail",89
+"1137",2019,"Michigan","Precipitation",597
+"1138",2019,"Michigan","Rain",30251
+"1139",2019,"Michigan","Snow",20707
+"1140",2019,"Michigan","Storm",83
+"1141",2019,"Minnesota","Cold",4224
+"1142",2019,"Minnesota","Fog",17385
+"1143",2019,"Minnesota","Hail",6
+"1144",2019,"Minnesota","Precipitation",1100
+"1145",2019,"Minnesota","Rain",29474
+"1146",2019,"Minnesota","Snow",20823
+"1147",2019,"Minnesota","Storm",270
+"1148",2019,"Mississippi","Cold",522
+"1149",2019,"Mississippi","Fog",5708
+"1150",2019,"Mississippi","Hail",1
+"1151",2019,"Mississippi","Precipitation",801
+"1152",2019,"Mississippi","Rain",14375
+"1153",2019,"Mississippi","Snow",121
+"1154",2019,"Mississippi","Storm",10
+"1155",2019,"Missouri","Cold",442
+"1156",2019,"Missouri","Fog",4380
+"1157",2019,"Missouri","Hail",29
+"1158",2019,"Missouri","Precipitation",1081
+"1159",2019,"Missouri","Rain",13138
+"1160",2019,"Missouri","Snow",2024
+"1161",2019,"Missouri","Storm",29
+"1162",2019,"Montana","Cold",585
+"1163",2019,"Montana","Fog",3760
+"1164",2019,"Montana","Hail",4
+"1165",2019,"Montana","Precipitation",159
+"1166",2019,"Montana","Rain",5406
+"1167",2019,"Montana","Snow",6083
+"1168",2019,"Montana","Storm",307
+"1169",2019,"Nebraska","Cold",553
+"1170",2019,"Nebraska","Fog",4894
+"1171",2019,"Nebraska","Hail",11
+"1172",2019,"Nebraska","Precipitation",894
+"1173",2019,"Nebraska","Rain",12709
+"1174",2019,"Nebraska","Snow",5495
+"1175",2019,"Nebraska","Storm",474
+"1176",2019,"Nevada","Cold",248
+"1177",2019,"Nevada","Fog",824
+"1178",2019,"Nevada","Hail",1
+"1179",2019,"Nevada","Precipitation",36
+"1180",2019,"Nevada","Rain",3210
+"1181",2019,"Nevada","Snow",1967
+"1182",2019,"Nevada","Storm",58
+"1183",2019,"New Hampshire","Cold",69
+"1184",2019,"New Hampshire","Fog",3403
+"1185",2019,"New Hampshire","Hail",10
+"1186",2019,"New Hampshire","Precipitation",110
+"1187",2019,"New Hampshire","Rain",5325
+"1188",2019,"New Hampshire","Snow",2803
+"1189",2019,"New Hampshire","Storm",395
+"1190",2019,"New Jersey","Cold",727
+"1191",2019,"New Jersey","Fog",2767
+"1192",2019,"New Jersey","Hail",19
+"1193",2019,"New Jersey","Precipitation",300
+"1194",2019,"New Jersey","Rain",7995
+"1195",2019,"New Jersey","Snow",980
+"1196",2019,"New Jersey","Storm",25
+"1197",2019,"New Mexico","Cold",338
+"1198",2019,"New Mexico","Fog",2599
+"1199",2019,"New Mexico","Hail",2
+"1200",2019,"New Mexico","Precipitation",192
+"1201",2019,"New Mexico","Rain",7142
+"1202",2019,"New Mexico","Snow",2677
+"1203",2019,"New Mexico","Storm",611
+"1204",2019,"New York","Cold",328
+"1205",2019,"New York","Fog",6788
+"1206",2019,"New York","Hail",48
+"1207",2019,"New York","Precipitation",569
+"1208",2019,"New York","Rain",17711
+"1209",2019,"New York","Snow",7594
+"1210",2019,"New York","Storm",80
+"1211",2019,"North Carolina","Cold",533
+"1212",2019,"North Carolina","Fog",10573
+"1213",2019,"North Carolina","Hail",20
+"1214",2019,"North Carolina","Precipitation",1023
+"1215",2019,"North Carolina","Rain",37425
+"1216",2019,"North Carolina","Snow",431
+"1217",2019,"North Carolina","Storm",139
+"1218",2019,"North Dakota","Cold",2900
+"1219",2019,"North Dakota","Fog",9476
+"1220",2019,"North Dakota","Hail",3
+"1221",2019,"North Dakota","Precipitation",156
+"1222",2019,"North Dakota","Rain",7106
+"1223",2019,"North Dakota","Snow",8763
+"1224",2019,"North Dakota","Storm",295
+"1225",2019,"Ohio","Cold",1175
+"1226",2019,"Ohio","Fog",6958
+"1227",2019,"Ohio","Hail",17
+"1228",2019,"Ohio","Precipitation",740
+"1229",2019,"Ohio","Rain",17957
+"1230",2019,"Ohio","Snow",5176
+"1231",2019,"Ohio","Storm",152
+"1232",2019,"Oklahoma","Cold",1218
+"1233",2019,"Oklahoma","Fog",7135
+"1234",2019,"Oklahoma","Hail",22
+"1235",2019,"Oklahoma","Precipitation",1442
+"1236",2019,"Oklahoma","Rain",17883
+"1237",2019,"Oklahoma","Snow",1300
+"1238",2019,"Oklahoma","Storm",277
+"1239",2019,"Oregon","Cold",156
+"1240",2019,"Oregon","Fog",6829
+"1241",2019,"Oregon","Hail",5
+"1242",2019,"Oregon","Precipitation",55
+"1243",2019,"Oregon","Rain",14645
+"1244",2019,"Oregon","Snow",2660
+"1245",2019,"Oregon","Storm",27
+"1246",2019,"Pennsylvania","Cold",220
+"1247",2019,"Pennsylvania","Fog",8243
+"1248",2019,"Pennsylvania","Hail",14
+"1249",2019,"Pennsylvania","Precipitation",675
+"1250",2019,"Pennsylvania","Rain",17710
+"1251",2019,"Pennsylvania","Snow",4890
+"1252",2019,"Pennsylvania","Storm",41
+"1253",2019,"Rhode Island","Cold",44
+"1254",2019,"Rhode Island","Fog",983
+"1255",2019,"Rhode Island","Hail",7
+"1256",2019,"Rhode Island","Precipitation",56
+"1257",2019,"Rhode Island","Rain",2641
+"1258",2019,"Rhode Island","Snow",437
+"1259",2019,"Rhode Island","Storm",5
+"1260",2019,"South Carolina","Cold",298
+"1261",2019,"South Carolina","Fog",7695
+"1262",2019,"South Carolina","Precipitation",629
+"1263",2019,"South Carolina","Rain",18934
+"1264",2019,"South Carolina","Snow",80
+"1265",2019,"South Carolina","Storm",37
+"1266",2019,"South Dakota","Cold",327
+"1267",2019,"South Dakota","Fog",4255
+"1268",2019,"South Dakota","Hail",6
+"1269",2019,"South Dakota","Precipitation",429
+"1270",2019,"South Dakota","Rain",7567
+"1271",2019,"South Dakota","Snow",5682
+"1272",2019,"South Dakota","Storm",467
+"1273",2019,"Tennessee","Cold",64
+"1274",2019,"Tennessee","Fog",3520
+"1275",2019,"Tennessee","Hail",5
+"1276",2019,"Tennessee","Precipitation",661
+"1277",2019,"Tennessee","Rain",8233
+"1278",2019,"Tennessee","Snow",241
+"1279",2019,"Tennessee","Storm",26
+"1280",2019,"Texas","Cold",3259
+"1281",2019,"Texas","Fog",23386
+"1282",2019,"Texas","Hail",41
+"1283",2019,"Texas","Precipitation",3943
+"1284",2019,"Texas","Rain",48596
+"1285",2019,"Texas","Snow",1055
+"1286",2019,"Texas","Storm",704
+"1287",2019,"Utah","Cold",109
+"1288",2019,"Utah","Fog",1499
+"1289",2019,"Utah","Hail",13
+"1290",2019,"Utah","Precipitation",27
+"1291",2019,"Utah","Rain",3710
+"1292",2019,"Utah","Snow",2783
+"1293",2019,"Utah","Storm",115
+"1294",2019,"Vermont","Cold",88
+"1295",2019,"Vermont","Fog",1670
+"1296",2019,"Vermont","Hail",1
+"1297",2019,"Vermont","Precipitation",129
+"1298",2019,"Vermont","Rain",3885
+"1299",2019,"Vermont","Snow",2690
+"1300",2019,"Vermont","Storm",1
+"1301",2019,"Virginia","Cold",1065
+"1302",2019,"Virginia","Fog",7236
+"1303",2019,"Virginia","Hail",20
+"1304",2019,"Virginia","Precipitation",997
+"1305",2019,"Virginia","Rain",24678
+"1306",2019,"Virginia","Snow",1865
+"1307",2019,"Virginia","Storm",43
+"1308",2019,"Washington","Cold",350
+"1309",2019,"Washington","Fog",10060
+"1310",2019,"Washington","Hail",8
+"1311",2019,"Washington","Precipitation",70
+"1312",2019,"Washington","Rain",16307
+"1313",2019,"Washington","Snow",3451
+"1314",2019,"Washington","Storm",27
+"1315",2019,"West Virginia","Cold",262
+"1316",2019,"West Virginia","Fog",3580
+"1317",2019,"West Virginia","Hail",6
+"1318",2019,"West Virginia","Precipitation",229
+"1319",2019,"West Virginia","Rain",8008
+"1320",2019,"West Virginia","Snow",2100
+"1321",2019,"West Virginia","Storm",11
+"1322",2019,"Wisconsin","Cold",1507
+"1323",2019,"Wisconsin","Fog",12788
+"1324",2019,"Wisconsin","Hail",18
+"1325",2019,"Wisconsin","Precipitation",1046
+"1326",2019,"Wisconsin","Rain",24354
+"1327",2019,"Wisconsin","Snow",12612
+"1328",2019,"Wisconsin","Storm",62
+"1329",2019,"Wyoming","Cold",922
+"1330",2019,"Wyoming","Fog",5197
+"1331",2019,"Wyoming","Precipitation",176
+"1332",2019,"Wyoming","Rain",9427
+"1333",2019,"Wyoming","Snow",12813
+"1334",2019,"Wyoming","Storm",715
+"1335",2020,"Alabama","Cold",770
+"1336",2020,"Alabama","Fog",6750
+"1337",2020,"Alabama","Precipitation",1287
+"1338",2020,"Alabama","Rain",20677
+"1339",2020,"Alabama","Snow",113
+"1340",2020,"Alabama","Storm",46
+"1341",2020,"Arizona","Cold",1059
+"1342",2020,"Arizona","Fog",2261
+"1343",2020,"Arizona","Precipitation",39
+"1344",2020,"Arizona","Rain",3133
+"1345",2020,"Arizona","Snow",755
+"1346",2020,"Arizona","Storm",77
+"1347",2020,"Arkansas","Cold",224
+"1348",2020,"Arkansas","Fog",7102
+"1349",2020,"Arkansas","Precipitation",1111
+"1350",2020,"Arkansas","Rain",16900
+"1351",2020,"Arkansas","Snow",442
+"1352",2020,"Arkansas","Storm",30
+"1353",2020,"California","Cold",2253
+"1354",2020,"California","Fog",32562
+"1355",2020,"California","Precipitation",142
+"1356",2020,"California","Rain",14902
+"1357",2020,"California","Snow",1586
+"1358",2020,"California","Storm",293
+"1359",2020,"Colorado","Cold",689
+"1360",2020,"Colorado","Fog",3924
+"1361",2020,"Colorado","Precipitation",151
+"1362",2020,"Colorado","Rain",6721
+"1363",2020,"Colorado","Snow",8664
+"1364",2020,"Colorado","Storm",517
+"1365",2020,"Connecticut","Cold",457
+"1366",2020,"Connecticut","Fog",2000
+"1367",2020,"Connecticut","Precipitation",80
+"1368",2020,"Connecticut","Rain",4326
+"1369",2020,"Connecticut","Snow",564
+"1370",2020,"Connecticut","Storm",19
+"1371",2020,"Delaware","Cold",11
+"1372",2020,"Delaware","Fog",454
+"1373",2020,"Delaware","Precipitation",60
+"1374",2020,"Delaware","Rain",2128
+"1375",2020,"Delaware","Snow",22
+"1376",2020,"Delaware","Storm",12
+"1377",2020,"Florida","Cold",1188
+"1378",2020,"Florida","Fog",9394
+"1379",2020,"Florida","Precipitation",3023
+"1380",2020,"Florida","Rain",39851
+"1381",2020,"Florida","Snow",15
+"1382",2020,"Florida","Storm",130
+"1383",2020,"Georgia","Cold",1223
+"1384",2020,"Georgia","Fog",11629
+"1385",2020,"Georgia","Precipitation",1035
+"1386",2020,"Georgia","Rain",33072
+"1387",2020,"Georgia","Snow",285
+"1388",2020,"Georgia","Storm",8
+"1389",2020,"Idaho","Cold",176
+"1390",2020,"Idaho","Fog",4284
+"1391",2020,"Idaho","Hail",1
+"1392",2020,"Idaho","Precipitation",36
+"1393",2020,"Idaho","Rain",4824
+"1394",2020,"Idaho","Snow",5258
+"1395",2020,"Idaho","Storm",72
+"1396",2020,"Illinois","Cold",404
+"1397",2020,"Illinois","Fog",8318
+"1398",2020,"Illinois","Hail",1
+"1399",2020,"Illinois","Precipitation",1157
+"1400",2020,"Illinois","Rain",24159
+"1401",2020,"Illinois","Snow",4457
+"1402",2020,"Illinois","Storm",89
+"1403",2020,"Indiana","Cold",1348
+"1404",2020,"Indiana","Fog",4724
+"1405",2020,"Indiana","Precipitation",427
+"1406",2020,"Indiana","Rain",12613
+"1407",2020,"Indiana","Snow",3081
+"1408",2020,"Indiana","Storm",68
+"1409",2020,"Iowa","Cold",450
+"1410",2020,"Iowa","Fog",11225
+"1411",2020,"Iowa","Hail",1
+"1412",2020,"Iowa","Precipitation",516
+"1413",2020,"Iowa","Rain",14968
+"1414",2020,"Iowa","Snow",5388
+"1415",2020,"Iowa","Storm",316
+"1416",2020,"Kansas","Cold",200
+"1417",2020,"Kansas","Fog",4142
+"1418",2020,"Kansas","Hail",4
+"1419",2020,"Kansas","Precipitation",694
+"1420",2020,"Kansas","Rain",9150
+"1421",2020,"Kansas","Snow",1818
+"1422",2020,"Kansas","Storm",307
+"1423",2020,"Kentucky","Cold",434
+"1424",2020,"Kentucky","Fog",4117
+"1425",2020,"Kentucky","Precipitation",619
+"1426",2020,"Kentucky","Rain",15049
+"1427",2020,"Kentucky","Snow",1072
+"1428",2020,"Kentucky","Storm",14
+"1429",2020,"Louisiana","Cold",615
+"1430",2020,"Louisiana","Fog",8096
+"1431",2020,"Louisiana","Hail",12
+"1432",2020,"Louisiana","Precipitation",1545
+"1433",2020,"Louisiana","Rain",20433
+"1434",2020,"Louisiana","Snow",93
+"1435",2020,"Louisiana","Storm",133
+"1436",2020,"Maine","Cold",117
+"1437",2020,"Maine","Fog",3491
+"1438",2020,"Maine","Hail",1
+"1439",2020,"Maine","Precipitation",149
+"1440",2020,"Maine","Rain",5671
+"1441",2020,"Maine","Snow",3103
+"1442",2020,"Maine","Storm",12
+"1443",2020,"Maryland","Cold",479
+"1444",2020,"Maryland","Fog",2864
+"1445",2020,"Maryland","Precipitation",248
+"1446",2020,"Maryland","Rain",9044
+"1447",2020,"Maryland","Snow",251
+"1448",2020,"Maryland","Storm",24
+"1449",2020,"Massachusetts","Cold",138
+"1450",2020,"Massachusetts","Fog",5967
+"1451",2020,"Massachusetts","Hail",3
+"1452",2020,"Massachusetts","Precipitation",199
+"1453",2020,"Massachusetts","Rain",9521
+"1454",2020,"Massachusetts","Snow",1848
+"1455",2020,"Massachusetts","Storm",63
+"1456",2020,"Michigan","Cold",623
+"1457",2020,"Michigan","Fog",10310
+"1458",2020,"Michigan","Hail",10
+"1459",2020,"Michigan","Precipitation",573
+"1460",2020,"Michigan","Rain",26155
+"1461",2020,"Michigan","Snow",16559
+"1462",2020,"Michigan","Storm",65
+"1463",2020,"Minnesota","Cold",2407
+"1464",2020,"Minnesota","Fog",12372
+"1465",2020,"Minnesota","Hail",1
+"1466",2020,"Minnesota","Precipitation",1101
+"1467",2020,"Minnesota","Rain",19988
+"1468",2020,"Minnesota","Snow",14902
+"1469",2020,"Minnesota","Storm",350
+"1470",2020,"Mississippi","Cold",215
+"1471",2020,"Mississippi","Fog",5817
+"1472",2020,"Mississippi","Hail",1
+"1473",2020,"Mississippi","Precipitation",1008
+"1474",2020,"Mississippi","Rain",15661
+"1475",2020,"Mississippi","Snow",46
+"1476",2020,"Mississippi","Storm",14
+"1477",2020,"Missouri","Cold",640
+"1478",2020,"Missouri","Fog",5279
+"1479",2020,"Missouri","Hail",2
+"1480",2020,"Missouri","Precipitation",799
+"1481",2020,"Missouri","Rain",12583
+"1482",2020,"Missouri","Snow",1673
+"1483",2020,"Missouri","Storm",27
+"1484",2020,"Montana","Cold",224
+"1485",2020,"Montana","Fog",2753
+"1486",2020,"Montana","Hail",5
+"1487",2020,"Montana","Precipitation",79
+"1488",2020,"Montana","Rain",4109
+"1489",2020,"Montana","Snow",5359
+"1490",2020,"Montana","Storm",401
+"1491",2020,"Nebraska","Cold",583
+"1492",2020,"Nebraska","Fog",4436
+"1493",2020,"Nebraska","Precipitation",430
+"1494",2020,"Nebraska","Rain",8488
+"1495",2020,"Nebraska","Snow",3841
+"1496",2020,"Nebraska","Storm",492
+"1497",2020,"Nevada","Cold",308
+"1498",2020,"Nevada","Fog",1176
+"1499",2020,"Nevada","Hail",3
+"1500",2020,"Nevada","Precipitation",5
+"1501",2020,"Nevada","Rain",1517
+"1502",2020,"Nevada","Snow",924
+"1503",2020,"Nevada","Storm",64
+"1504",2020,"New Hampshire","Cold",51
+"1505",2020,"New Hampshire","Fog",3021
+"1506",2020,"New Hampshire","Precipitation",96
+"1507",2020,"New Hampshire","Rain",4445
+"1508",2020,"New Hampshire","Snow",2268
+"1509",2020,"New Hampshire","Storm",377
+"1510",2020,"New Jersey","Cold",573
+"1511",2020,"New Jersey","Fog",3354
+"1512",2020,"New Jersey","Precipitation",238
+"1513",2020,"New Jersey","Rain",8399
+"1514",2020,"New Jersey","Snow",411
+"1515",2020,"New Jersey","Storm",34
+"1516",2020,"New Mexico","Cold",269
+"1517",2020,"New Mexico","Fog",1786
+"1518",2020,"New Mexico","Hail",5
+"1519",2020,"New Mexico","Precipitation",154
+"1520",2020,"New Mexico","Rain",4690
+"1521",2020,"New Mexico","Snow",2179
+"1522",2020,"New Mexico","Storm",314
+"1523",2020,"New York","Cold",393
+"1524",2020,"New York","Fog",5579
+"1525",2020,"New York","Hail",8
+"1526",2020,"New York","Precipitation",419
+"1527",2020,"New York","Rain",15665
+"1528",2020,"New York","Snow",6157
+"1529",2020,"New York","Storm",71
+"1530",2020,"North Carolina","Cold",599
+"1531",2020,"North Carolina","Fog",14216
+"1532",2020,"North Carolina","Hail",1
+"1533",2020,"North Carolina","Precipitation",1198
+"1534",2020,"North Carolina","Rain",45500
+"1535",2020,"North Carolina","Snow",687
+"1536",2020,"North Carolina","Storm",101
+"1537",2020,"North Dakota","Cold",540
+"1538",2020,"North Dakota","Fog",5743
+"1539",2020,"North Dakota","Hail",4
+"1540",2020,"North Dakota","Precipitation",126
+"1541",2020,"North Dakota","Rain",4113
+"1542",2020,"North Dakota","Snow",6120
+"1543",2020,"North Dakota","Storm",407
+"1544",2020,"Ohio","Cold",798
+"1545",2020,"Ohio","Fog",6999
+"1546",2020,"Ohio","Hail",1
+"1547",2020,"Ohio","Precipitation",895
+"1548",2020,"Ohio","Rain",17237
+"1549",2020,"Ohio","Snow",4385
+"1550",2020,"Ohio","Storm",89
+"1551",2020,"Oklahoma","Cold",970
+"1552",2020,"Oklahoma","Fog",6815
+"1553",2020,"Oklahoma","Hail",8
+"1554",2020,"Oklahoma","Precipitation",1270
+"1555",2020,"Oklahoma","Rain",16617
+"1556",2020,"Oklahoma","Snow",1777
+"1557",2020,"Oklahoma","Storm",228
+"1558",2020,"Oregon","Cold",159
+"1559",2020,"Oregon","Fog",8428
+"1560",2020,"Oregon","Precipitation",60
+"1561",2020,"Oregon","Rain",16352
+"1562",2020,"Oregon","Snow",2197
+"1563",2020,"Oregon","Storm",40
+"1564",2020,"Pennsylvania","Cold",177
+"1565",2020,"Pennsylvania","Fog",7971
+"1566",2020,"Pennsylvania","Precipitation",470
+"1567",2020,"Pennsylvania","Rain",17404
+"1568",2020,"Pennsylvania","Snow",4423
+"1569",2020,"Pennsylvania","Storm",37
+"1570",2020,"Rhode Island","Cold",74
+"1571",2020,"Rhode Island","Fog",1217
+"1572",2020,"Rhode Island","Precipitation",32
+"1573",2020,"Rhode Island","Rain",2284
+"1574",2020,"Rhode Island","Snow",213
+"1575",2020,"Rhode Island","Storm",13
+"1576",2020,"South Carolina","Cold",244
+"1577",2020,"South Carolina","Fog",7809
+"1578",2020,"South Carolina","Precipitation",1167
+"1579",2020,"South Carolina","Rain",23537
+"1580",2020,"South Carolina","Snow",130
+"1581",2020,"South Carolina","Storm",18
+"1582",2020,"South Dakota","Cold",151
+"1583",2020,"South Dakota","Fog",2343
+"1584",2020,"South Dakota","Hail",4
+"1585",2020,"South Dakota","Precipitation",527
+"1586",2020,"South Dakota","Rain",4657
+"1587",2020,"South Dakota","Snow",3317
+"1588",2020,"South Dakota","Storm",431
+"1589",2020,"Tennessee","Cold",54
+"1590",2020,"Tennessee","Fog",4592
+"1591",2020,"Tennessee","Precipitation",585
+"1592",2020,"Tennessee","Rain",8873
+"1593",2020,"Tennessee","Snow",398
+"1594",2020,"Tennessee","Storm",11
+"1595",2020,"Texas","Cold",1635
+"1596",2020,"Texas","Fog",23943
+"1597",2020,"Texas","Hail",19
+"1598",2020,"Texas","Precipitation",3325
+"1599",2020,"Texas","Rain",49069
+"1600",2020,"Texas","Snow",1847
+"1601",2020,"Texas","Storm",670
+"1602",2020,"Utah","Cold",86
+"1603",2020,"Utah","Fog",1318
+"1604",2020,"Utah","Hail",4
+"1605",2020,"Utah","Precipitation",15
+"1606",2020,"Utah","Rain",1915
+"1607",2020,"Utah","Snow",1751
+"1608",2020,"Utah","Storm",267
+"1609",2020,"Vermont","Cold",60
+"1610",2020,"Vermont","Fog",1356
+"1611",2020,"Vermont","Precipitation",106
+"1612",2020,"Vermont","Rain",3375
+"1613",2020,"Vermont","Snow",2149
+"1614",2020,"Vermont","Storm",1
+"1615",2020,"Virginia","Cold",1300
+"1616",2020,"Virginia","Fog",8575
+"1617",2020,"Virginia","Precipitation",988
+"1618",2020,"Virginia","Rain",30255
+"1619",2020,"Virginia","Snow",1357
+"1620",2020,"Virginia","Storm",27
+"1621",2020,"Washington","Cold",176
+"1622",2020,"Washington","Fog",9668
+"1623",2020,"Washington","Hail",9
+"1624",2020,"Washington","Precipitation",63
+"1625",2020,"Washington","Rain",20675
+"1626",2020,"Washington","Snow",2328
+"1627",2020,"Washington","Storm",68
+"1628",2020,"West Virginia","Cold",666
+"1629",2020,"West Virginia","Fog",4099
+"1630",2020,"West Virginia","Hail",1
+"1631",2020,"West Virginia","Precipitation",171
+"1632",2020,"West Virginia","Rain",8918
+"1633",2020,"West Virginia","Snow",1863
+"1634",2020,"West Virginia","Storm",15
+"1635",2020,"Wisconsin","Cold",464
+"1636",2020,"Wisconsin","Fog",8542
+"1637",2020,"Wisconsin","Hail",1
+"1638",2020,"Wisconsin","Precipitation",878
+"1639",2020,"Wisconsin","Rain",19521
+"1640",2020,"Wisconsin","Snow",9719
+"1641",2020,"Wisconsin","Storm",45
+"1642",2020,"Wyoming","Cold",877
+"1643",2020,"Wyoming","Fog",3837
+"1644",2020,"Wyoming","Hail",3
+"1645",2020,"Wyoming","Precipitation",92
+"1646",2020,"Wyoming","Rain",5759
+"1647",2020,"Wyoming","Snow",10239
+"1648",2020,"Wyoming","Storm",957
+"1649",2021,"Alabama","Cold",550
+"1650",2021,"Alabama","Fog",9282
+"1651",2021,"Alabama","Precipitation",1716
+"1652",2021,"Alabama","Rain",20491
+"1653",2021,"Alabama","Snow",244
+"1654",2021,"Alabama","Storm",14
+"1655",2021,"Arizona","Cold",1185
+"1656",2021,"Arizona","Fog",2319
+"1657",2021,"Arizona","Hail",6
+"1658",2021,"Arizona","Precipitation",219
+"1659",2021,"Arizona","Rain",5217
+"1660",2021,"Arizona","Snow",1603
+"1661",2021,"Arizona","Storm",197
+"1662",2021,"Arkansas","Cold",260
+"1663",2021,"Arkansas","Fog",7228
+"1664",2021,"Arkansas","Hail",1
+"1665",2021,"Arkansas","Precipitation",1261
+"1666",2021,"Arkansas","Rain",13336
+"1667",2021,"Arkansas","Snow",774
+"1668",2021,"Arkansas","Storm",17
+"1669",2021,"California","Cold",2576
+"1670",2021,"California","Fog",31643
+"1671",2021,"California","Hail",5
+"1672",2021,"California","Precipitation",207
+"1673",2021,"California","Rain",18660
+"1674",2021,"California","Snow",2239
+"1675",2021,"California","Storm",514
+"1676",2021,"Colorado","Cold",915
+"1677",2021,"Colorado","Fog",3759
+"1678",2021,"Colorado","Hail",12
+"1679",2021,"Colorado","Precipitation",244
+"1680",2021,"Colorado","Rain",8978
+"1681",2021,"Colorado","Snow",8678
+"1682",2021,"Colorado","Storm",443
+"1683",2021,"Connecticut","Cold",745
+"1684",2021,"Connecticut","Fog",1854
+"1685",2021,"Connecticut","Hail",1
+"1686",2021,"Connecticut","Precipitation",126
+"1687",2021,"Connecticut","Rain",4342
+"1688",2021,"Connecticut","Snow",735
+"1689",2021,"Connecticut","Storm",3
+"1690",2021,"Delaware","Cold",10
+"1691",2021,"Delaware","Fog",330
+"1692",2021,"Delaware","Precipitation",41
+"1693",2021,"Delaware","Rain",1655
+"1694",2021,"Delaware","Snow",129
+"1695",2021,"Delaware","Storm",5
+"1696",2021,"Florida","Cold",1298
+"1697",2021,"Florida","Fog",11924
+"1698",2021,"Florida","Precipitation",3272
+"1699",2021,"Florida","Rain",36138
+"1700",2021,"Florida","Snow",10
+"1701",2021,"Florida","Storm",79
+"1702",2021,"Georgia","Cold",757
+"1703",2021,"Georgia","Fog",13590
+"1704",2021,"Georgia","Hail",1
+"1705",2021,"Georgia","Precipitation",1036
+"1706",2021,"Georgia","Rain",31239
+"1707",2021,"Georgia","Snow",196
+"1708",2021,"Georgia","Storm",2
+"1709",2021,"Idaho","Cold",162
+"1710",2021,"Idaho","Fog",3860
+"1711",2021,"Idaho","Precipitation",53
+"1712",2021,"Idaho","Rain",4423
+"1713",2021,"Idaho","Snow",5277
+"1714",2021,"Idaho","Storm",83
+"1715",2021,"Illinois","Cold",513
+"1716",2021,"Illinois","Fog",8436
+"1717",2021,"Illinois","Precipitation",1231
+"1718",2021,"Illinois","Rain",23337
+"1719",2021,"Illinois","Snow",4353
+"1720",2021,"Illinois","Storm",111
+"1721",2021,"Indiana","Cold",963
+"1722",2021,"Indiana","Fog",4963
+"1723",2021,"Indiana","Precipitation",475
+"1724",2021,"Indiana","Rain",12334
+"1725",2021,"Indiana","Snow",3209
+"1726",2021,"Indiana","Storm",59
+"1727",2021,"Iowa","Cold",992
+"1728",2021,"Iowa","Fog",10812
+"1729",2021,"Iowa","Hail",3
+"1730",2021,"Iowa","Precipitation",551
+"1731",2021,"Iowa","Rain",14267
+"1732",2021,"Iowa","Snow",4189
+"1733",2021,"Iowa","Storm",303
+"1734",2021,"Kansas","Cold",188
+"1735",2021,"Kansas","Fog",3788
+"1736",2021,"Kansas","Hail",3
+"1737",2021,"Kansas","Precipitation",813
+"1738",2021,"Kansas","Rain",8807
+"1739",2021,"Kansas","Snow",1651
+"1740",2021,"Kansas","Storm",340
+"1741",2021,"Kentucky","Cold",441
+"1742",2021,"Kentucky","Fog",4280
+"1743",2021,"Kentucky","Hail",5
+"1744",2021,"Kentucky","Precipitation",672
+"1745",2021,"Kentucky","Rain",13289
+"1746",2021,"Kentucky","Snow",1426
+"1747",2021,"Kentucky","Storm",4
+"1748",2021,"Louisiana","Cold",520
+"1749",2021,"Louisiana","Fog",8226
+"1750",2021,"Louisiana","Hail",2
+"1751",2021,"Louisiana","Precipitation",2034
+"1752",2021,"Louisiana","Rain",18074
+"1753",2021,"Louisiana","Snow",540
+"1754",2021,"Louisiana","Storm",49
+"1755",2021,"Maine","Cold",84
+"1756",2021,"Maine","Fog",2997
+"1757",2021,"Maine","Hail",3
+"1758",2021,"Maine","Precipitation",100
+"1759",2021,"Maine","Rain",6395
+"1760",2021,"Maine","Snow",2631
+"1761",2021,"Maine","Storm",9
+"1762",2021,"Maryland","Cold",430
+"1763",2021,"Maryland","Fog",2571
+"1764",2021,"Maryland","Hail",2
+"1765",2021,"Maryland","Precipitation",240
+"1766",2021,"Maryland","Rain",6927
+"1767",2021,"Maryland","Snow",823
+"1768",2021,"Maryland","Storm",21
+"1769",2021,"Massachusetts","Cold",203
+"1770",2021,"Massachusetts","Fog",5118
+"1771",2021,"Massachusetts","Hail",1
+"1772",2021,"Massachusetts","Precipitation",281
+"1773",2021,"Massachusetts","Rain",11242
+"1774",2021,"Massachusetts","Snow",2176
+"1775",2021,"Massachusetts","Storm",48
+"1776",2021,"Michigan","Cold",490
+"1777",2021,"Michigan","Fog",14197
+"1778",2021,"Michigan","Hail",2
+"1779",2021,"Michigan","Precipitation",642
+"1780",2021,"Michigan","Rain",25846
+"1781",2021,"Michigan","Snow",15542
+"1782",2021,"Michigan","Storm",87
+"1783",2021,"Minnesota","Cold",2629
+"1784",2021,"Minnesota","Fog",15180
+"1785",2021,"Minnesota","Hail",2
+"1786",2021,"Minnesota","Precipitation",959
+"1787",2021,"Minnesota","Rain",22013
+"1788",2021,"Minnesota","Snow",14065
+"1789",2021,"Minnesota","Storm",236
+"1790",2021,"Mississippi","Cold",215
+"1791",2021,"Mississippi","Fog",6478
+"1792",2021,"Mississippi","Precipitation",1277
+"1793",2021,"Mississippi","Rain",12862
+"1794",2021,"Mississippi","Snow",321
+"1795",2021,"Mississippi","Storm",27
+"1796",2021,"Missouri","Cold",420
+"1797",2021,"Missouri","Fog",5202
+"1798",2021,"Missouri","Hail",1
+"1799",2021,"Missouri","Precipitation",934
+"1800",2021,"Missouri","Rain",11886
+"1801",2021,"Missouri","Snow",1932
+"1802",2021,"Missouri","Storm",32
+"1803",2021,"Montana","Cold",410
+"1804",2021,"Montana","Fog",3609
+"1805",2021,"Montana","Hail",7
+"1806",2021,"Montana","Precipitation",58
+"1807",2021,"Montana","Rain",3752
+"1808",2021,"Montana","Snow",5379
+"1809",2021,"Montana","Storm",585
+"1810",2021,"Nebraska","Cold",614
+"1811",2021,"Nebraska","Fog",4926
+"1812",2021,"Nebraska","Precipitation",619
+"1813",2021,"Nebraska","Rain",8854
+"1814",2021,"Nebraska","Snow",3474
+"1815",2021,"Nebraska","Storm",473
+"1816",2021,"Nevada","Cold",174
+"1817",2021,"Nevada","Fog",1771
+"1818",2021,"Nevada","Hail",3
+"1819",2021,"Nevada","Precipitation",26
+"1820",2021,"Nevada","Rain",1882
+"1821",2021,"Nevada","Snow",1649
+"1822",2021,"Nevada","Storm",98
+"1823",2021,"New Hampshire","Cold",70
+"1824",2021,"New Hampshire","Fog",2920
+"1825",2021,"New Hampshire","Hail",3
+"1826",2021,"New Hampshire","Precipitation",91
+"1827",2021,"New Hampshire","Rain",5433
+"1828",2021,"New Hampshire","Snow",2401
+"1829",2021,"New Hampshire","Storm",367
+"1830",2021,"New Jersey","Cold",66
+"1831",2021,"New Jersey","Fog",2564
+"1832",2021,"New Jersey","Precipitation",264
+"1833",2021,"New Jersey","Rain",7082
+"1834",2021,"New Jersey","Snow",997
+"1835",2021,"New Jersey","Storm",17
+"1836",2021,"New Mexico","Cold",333
+"1837",2021,"New Mexico","Fog",1817
+"1838",2021,"New Mexico","Hail",4
+"1839",2021,"New Mexico","Precipitation",201
+"1840",2021,"New Mexico","Rain",5553
+"1841",2021,"New Mexico","Snow",1719
+"1842",2021,"New Mexico","Storm",415
+"1843",2021,"New York","Cold",203
+"1844",2021,"New York","Fog",5939
+"1845",2021,"New York","Hail",5
+"1846",2021,"New York","Precipitation",534
+"1847",2021,"New York","Rain",16353
+"1848",2021,"New York","Snow",6320
+"1849",2021,"New York","Storm",49
+"1850",2021,"North Carolina","Cold",628
+"1851",2021,"North Carolina","Fog",14516
+"1852",2021,"North Carolina","Precipitation",1091
+"1853",2021,"North Carolina","Rain",34362
+"1854",2021,"North Carolina","Snow",1142
+"1855",2021,"North Carolina","Storm",25
+"1856",2021,"North Dakota","Cold",835
+"1857",2021,"North Dakota","Fog",7546
+"1858",2021,"North Dakota","Hail",1
+"1859",2021,"North Dakota","Precipitation",90
+"1860",2021,"North Dakota","Rain",4723
+"1861",2021,"North Dakota","Snow",5509
+"1862",2021,"North Dakota","Storm",900
+"1863",2021,"Ohio","Cold",293
+"1864",2021,"Ohio","Fog",7841
+"1865",2021,"Ohio","Hail",2
+"1866",2021,"Ohio","Precipitation",689
+"1867",2021,"Ohio","Rain",16954
+"1868",2021,"Ohio","Snow",4215
+"1869",2021,"Ohio","Storm",57
+"1870",2021,"Oklahoma","Cold",601
+"1871",2021,"Oklahoma","Fog",6305
+"1872",2021,"Oklahoma","Precipitation",1152
+"1873",2021,"Oklahoma","Rain",14416
+"1874",2021,"Oklahoma","Snow",1480
+"1875",2021,"Oklahoma","Storm",240
+"1876",2021,"Oregon","Cold",110
+"1877",2021,"Oregon","Fog",7649
+"1878",2021,"Oregon","Hail",2
+"1879",2021,"Oregon","Precipitation",24
+"1880",2021,"Oregon","Rain",16434
+"1881",2021,"Oregon","Snow",2903
+"1882",2021,"Oregon","Storm",61
+"1883",2021,"Pennsylvania","Cold",159
+"1884",2021,"Pennsylvania","Fog",8377
+"1885",2021,"Pennsylvania","Precipitation",693
+"1886",2021,"Pennsylvania","Rain",16236
+"1887",2021,"Pennsylvania","Snow",4616
+"1888",2021,"Pennsylvania","Storm",19
+"1889",2021,"Rhode Island","Cold",35
+"1890",2021,"Rhode Island","Fog",1114
+"1891",2021,"Rhode Island","Precipitation",40
+"1892",2021,"Rhode Island","Rain",2225
+"1893",2021,"Rhode Island","Snow",353
+"1894",2021,"Rhode Island","Storm",13
+"1895",2021,"South Carolina","Cold",480
+"1896",2021,"South Carolina","Fog",8088
+"1897",2021,"South Carolina","Precipitation",927
+"1898",2021,"South Carolina","Rain",19015
+"1899",2021,"South Carolina","Snow",131
+"1900",2021,"South Carolina","Storm",11
+"1901",2021,"South Dakota","Cold",269
+"1902",2021,"South Dakota","Fog",2799
+"1903",2021,"South Dakota","Hail",3
+"1904",2021,"South Dakota","Precipitation",313
+"1905",2021,"South Dakota","Rain",5082
+"1906",2021,"South Dakota","Snow",3402
+"1907",2021,"South Dakota","Storm",610
+"1908",2021,"Tennessee","Cold",49
+"1909",2021,"Tennessee","Fog",5547
+"1910",2021,"Tennessee","Hail",2
+"1911",2021,"Tennessee","Precipitation",553
+"1912",2021,"Tennessee","Rain",7001
+"1913",2021,"Tennessee","Snow",448
+"1914",2021,"Tennessee","Storm",15
+"1915",2021,"Texas","Cold",2385
+"1916",2021,"Texas","Fog",25883
+"1917",2021,"Texas","Hail",13
+"1918",2021,"Texas","Precipitation",4184
+"1919",2021,"Texas","Rain",46528
+"1920",2021,"Texas","Snow",2756
+"1921",2021,"Texas","Storm",624
+"1922",2021,"Utah","Cold",146
+"1923",2021,"Utah","Fog",1239
+"1924",2021,"Utah","Hail",3
+"1925",2021,"Utah","Precipitation",57
+"1926",2021,"Utah","Rain",2797
+"1927",2021,"Utah","Snow",2030
+"1928",2021,"Utah","Storm",120
+"1929",2021,"Vermont","Cold",73
+"1930",2021,"Vermont","Fog",1624
+"1931",2021,"Vermont","Hail",1
+"1932",2021,"Vermont","Precipitation",90
+"1933",2021,"Vermont","Rain",3786
+"1934",2021,"Vermont","Snow",2107
+"1935",2021,"Vermont","Storm",1
+"1936",2021,"Virginia","Cold",1724
+"1937",2021,"Virginia","Fog",8149
+"1938",2021,"Virginia","Hail",5
+"1939",2021,"Virginia","Precipitation",930
+"1940",2021,"Virginia","Rain",22047
+"1941",2021,"Virginia","Snow",2421
+"1942",2021,"Virginia","Storm",19
+"1943",2021,"Washington","Cold",201
+"1944",2021,"Washington","Fog",8408
+"1945",2021,"Washington","Hail",9
+"1946",2021,"Washington","Precipitation",41
+"1947",2021,"Washington","Rain",19952
+"1948",2021,"Washington","Snow",3018
+"1949",2021,"Washington","Storm",97
+"1950",2021,"West Virginia","Cold",269
+"1951",2021,"West Virginia","Fog",4242
+"1952",2021,"West Virginia","Precipitation",205
+"1953",2021,"West Virginia","Rain",7868
+"1954",2021,"West Virginia","Snow",1836
+"1955",2021,"West Virginia","Storm",11
+"1956",2021,"Wisconsin","Cold",1041
+"1957",2021,"Wisconsin","Fog",11869
+"1958",2021,"Wisconsin","Precipitation",803
+"1959",2021,"Wisconsin","Rain",17317
+"1960",2021,"Wisconsin","Snow",8028
+"1961",2021,"Wisconsin","Storm",93
+"1962",2021,"Wyoming","Cold",785
+"1963",2021,"Wyoming","Fog",4642
+"1964",2021,"Wyoming","Precipitation",90
+"1965",2021,"Wyoming","Rain",7594
+"1966",2021,"Wyoming","Snow",11757
+"1967",2021,"Wyoming","Storm",1046

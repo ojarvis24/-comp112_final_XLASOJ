@@ -20,7 +20,7 @@ airquality2 <- airquality %>%
 
 airquality_f <- read_csv("airquality_f.csv")
 
-weather <- read_csv("weathersm.csv")
+weathertype <- read_csv("weathertype.csv")
 
 states_map <- map_data("state")%>% 
   mutate(region = str_to_title(region))
@@ -29,7 +29,7 @@ st_crosswalk <- tibble(state = state.name) %>%
   bind_cols(tibble(abb = state.abb)) %>% 
   bind_rows(tibble(state = "District of Columbia", abb = "DC")) 
 
-weather2 <- weather %>% 
+weathertype2 <- weathertype %>% 
   left_join(st_crosswalk, by = c("state")) 
 
 weatherarea <- read_csv("weatherarea.csv")
@@ -59,11 +59,11 @@ ui <- fluidPage(theme = bs_theme(bootswatch = "minty"),
                 h3("What types of weather do different states have?"),
                 selectInput(inputId = "state", 
                             label = "State(s):", 
-                            choices = unique(weather2$state), 
+                            choices = unique(weathertype2$state), 
                             multiple = TRUE), 
                 selectInput(inputId = "year", 
                             label = "Year:", 
-                            choices = c("2016", "2017", "2018", "2019", "2020", "2021")), 
+                            choices = unique(weathertype2$year)), 
                 submitButton("Submit"),
                 plotOutput(outputId = "typeplot"),
                 h3("Which states have the most severe weather?"),
@@ -95,16 +95,16 @@ server <- function(input, output) {
       scale_fill_distiller(palette = "Blues", direction = 1)
     )
   output$typeplot <- renderPlot(
-    weather2 %>%
-      filter(year == input$year) %>%
+    weathertype2 %>%
       filter(state %in% input$state) %>%
-      group_by(state) %>%
-      group_by(year) %>%
+      filter(year == input$year) %>%
       ggplot() +
-      geom_bar(aes(x = Type,
+      geom_col(aes(x = Type,
+                   y = `n()`,
                    fill = state),
                position = position_dodge())+
-      labs(fill = "State(s)")
+      labs(y = "", 
+           fill = "State(s)")
     )
   output$severeplot <- renderPlot(
     sev_weatherarea %>%
