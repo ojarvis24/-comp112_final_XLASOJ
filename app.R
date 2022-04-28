@@ -7,16 +7,10 @@ library(lubridate)
 library(sf)  
 library(RColorBrewer)
 library(bslib)
-
 library(readr)
-airquality <- read_csv("aqi_daily_1980_to_2021.csv")
 
 states_map <- map_data("state")%>% 
   mutate(region = str_to_title(region))
-
-airquality2 <- airquality %>% 
-  mutate(Year = year(Date)) %>% 
-  mutate("region" = `State Name`)
 
 airquality_f <- read_csv("airquality_f.csv")
 
