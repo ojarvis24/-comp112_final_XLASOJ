@@ -64,7 +64,7 @@ ui <- fluidPage(theme = bs_theme(bootswatch = "minty"),
                 submitButton("Submit"),
                 plotOutput(outputId = "severeplot"),
                 h3("What is the air quality like in different states?"),
-                h6("Data from 2016"),
+                uiOutput("mytext"),
                 selectInput(inputId = "Year",
                             label = "Year:",
                             choices = c("2016", "2017", "2018", "2019", "2020", "2021")),
@@ -85,6 +85,12 @@ server <- function(input, output) {
       theme(legend.background = element_blank()) +
       scale_fill_distiller(palette = "Blues", direction = 1)
     )
+  output$mytext<- renderUI(HTML("<ul>Air Quality Index breakpoints:
+                 <li>Good - 0 to 50 </li>
+                 <li>Moderate - 51 to 100</li>
+                 <li>Unhealthy - 101 to 150</li>
+                 <li>Unhealthy - 151 to 200</li>
+                 <li>Very unhealthy - 201 to 300</li></ul>"))
   output$typeplot <- renderPlot(
     weathertype2 %>%
       filter(state %in% input$state) %>%
