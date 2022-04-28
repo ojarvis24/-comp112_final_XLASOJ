@@ -105,7 +105,7 @@ server <- function(input, output) {
       expand_limits(x = states_map$long, y = states_map$lat) +
       scale_fill_viridis_c(option = "B",
                            direction = -1)+
-      labs(fill = "Total Severe Weather (Days)") +
+      labs(fill = "Total Severe Weather per Square Mile (days/miles^2)") +
       theme_map() +
       theme(legend.background = element_blank())
     )
