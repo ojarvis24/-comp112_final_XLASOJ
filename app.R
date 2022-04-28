@@ -87,11 +87,11 @@ server <- function(input, output) {
       scale_fill_distiller(palette = "Blues", direction = 1)
     )
   output$mytext<- renderUI(HTML("<ul>Air Quality Index breakpoints:
-                 <li>Good - 0 to 50 </li>
-                 <li>Moderate - 51 to 100</li>
-                 <li>Unhealthy - 101 to 150</li>
+                 <li>Very unhealthy - 201 to 300 </li>
                  <li>Unhealthy - 151 to 200</li>
-                 <li>Very unhealthy - 201 to 300</li></ul>"))
+                 <li>Unhealthy for sensitive groups - 101 to 150</li>
+                 <li>Moderate - 51 to 100</li>
+                 <li>Good - 0 to 50 </li></ul>"))
   output$typeplot <- renderPlot(
     weathertype2 %>%
       filter(state %in% input$state) %>%
