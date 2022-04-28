@@ -55,9 +55,6 @@ ui <- fluidPage(theme = bs_theme(bootswatch = "minty"),
                             label = "State(s):", 
                             choices = unique(weathertype2$state), 
                             multiple = TRUE), 
-                selectInput(inputId = "year", 
-                            label = "Year:", 
-                            choices = unique(weathertype2$year)), 
                 submitButton("Submit"),
                 plotOutput(outputId = "typeplot"),
                 h3("Which states have the most severe weather?"),
@@ -91,7 +88,6 @@ server <- function(input, output) {
   output$typeplot <- renderPlot(
     weathertype2 %>%
       filter(state %in% input$state) %>%
-      filter(year == input$year) %>%
       ggplot() +
       geom_col(aes(x = Type,
                    y = `n()`,
