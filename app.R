@@ -45,7 +45,7 @@ ui <- fluidPage(theme = bs_theme(bootswatch = "minty"),
                 submitButton("Submit"),
                 plotOutput(outputId = "avgtempplot"),
                 h3("How much precipitation do different states get?"),
-                selectInput(inputId = "year", 
+                selectInput(inputId = "yearprecip", 
                             label = "Year:", 
                             choices = c("2016", "2017", "2018", "2019", "2020", "2021")), 
                 submitButton("Submit"),
@@ -58,14 +58,14 @@ ui <- fluidPage(theme = bs_theme(bootswatch = "minty"),
                 submitButton("Submit"),
                 plotOutput(outputId = "typeplot"),
                 h3("Which states have the most severe weather?"),
-                selectInput(inputId = "year", 
+                selectInput(inputId = "yearsev", 
                             label = "Year:", 
                             choices = c("2016", "2017", "2018", "2019", "2020", "2021")), 
                 submitButton("Submit"),
                 plotOutput(outputId = "severeplot"),
                 h3("What is the air quality like in different states?"),
                 h6("Data from 2016"),
-                selectInput(inputId = "Year",
+                selectInput(inputId = "yearair",
                             label = "Year:",
                             choices = c("2016", "2017", "2018", "2019", "2020", "2021")),
                 submitButton("Submit"),
@@ -75,7 +75,7 @@ ui <- fluidPage(theme = bs_theme(bootswatch = "minty"),
 server <- function(input, output) {
   output$precipplot <- renderPlot(
     weatherarea %>%
-      filter(year == input$year) %>%
+      filter(year == input$yearprecip) %>%
       ggplot() +
       geom_map(map = states_map,
                aes(map_id = state, fill = preciparea)) +
@@ -98,7 +98,7 @@ server <- function(input, output) {
     )
   output$severeplot <- renderPlot(
     sev_weatherarea %>%
-      filter(year == input$year) %>%
+      filter(year == input$yearsev) %>%
       ggplot() +
       geom_map(map = states_map,
                aes(map_id = state, fill = sev_area)) +
@@ -126,7 +126,7 @@ server <- function(input, output) {
     )
     output$airplot <- renderPlot( 
       airquality_f %>% 
-        filter(Year == input$Year) %>% 
+        filter(Year == input$yearair) %>% 
         group_by(region, mean_AQI) %>% 
         ggplot() +
         geom_map(map = states_map,
