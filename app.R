@@ -36,6 +36,7 @@ sev_weatherarea <- read_csv("sev_weatherarea.csv")
 ui <- fluidPage(theme = bs_theme(bootswatch = "minty"), 
                 titlePanel("Where do I want to live in the United States?"),
                 h5("The United States is a large country with many states to live in. When choosing somewhere to move, weather can be an important factor in the decision. This app will allow users to learn about the weather in different US states and allow them to make an educated decision on where they would like to live."),
+                h6("Data collected from US Weather Events on Kaggle, the CORGIS Weather Data, and Air Quality Data on Kaggle."),
                 h3("What is the temperature like in different US states?"),
                 h6("Data from 2016"),
                 selectInput(inputId = "Station.State", 
@@ -45,7 +46,7 @@ ui <- fluidPage(theme = bs_theme(bootswatch = "minty"),
                 submitButton("Submit"),
                 plotOutput(outputId = "avgtempplot"),
                 h3("How much precipitation do different states get?"),
-                selectInput(inputId = "year", 
+                selectInput(inputId = "yearprecip", 
                             label = "Year:", 
                             choices = c("2016", "2017", "2018", "2019", "2020", "2021")), 
                 submitButton("Submit"),
@@ -58,7 +59,7 @@ ui <- fluidPage(theme = bs_theme(bootswatch = "minty"),
                 submitButton("Submit"),
                 plotOutput(outputId = "typeplot"),
                 h3("Which states have the most severe weather?"),
-                selectInput(inputId = "year", 
+                selectInput(inputId = "yearsev", 
                             label = "Year:", 
                             choices = c("2016", "2017", "2018", "2019", "2020", "2021")), 
                 submitButton("Submit"),
@@ -66,16 +67,19 @@ ui <- fluidPage(theme = bs_theme(bootswatch = "minty"),
                 h3("What is the air quality like in different states?"),
                 uiOutput("mytext"),
                 selectInput(inputId = "Year",
+                h6("Data from 2016"),
+                selectInput(inputId = "yearair",
                             label = "Year:",
                             choices = c("2016", "2017", "2018", "2019", "2020", "2021")),
                 submitButton("Submit"),
                 plotOutput(outputId = "airplot")
+                )
                 )#widgets
                 
 server <- function(input, output) {
   output$precipplot <- renderPlot(
     weatherarea %>%
-      filter(year == input$year) %>%
+      filter(year == input$yearprecip) %>%
       ggplot() +
       geom_map(map = states_map,
                aes(map_id = state, fill = preciparea)) +
@@ -104,15 +108,14 @@ server <- function(input, output) {
     )
   output$severeplot <- renderPlot(
     sev_weatherarea %>%
-      filter(year == input$year) %>%
-      filter(Severity == "Severe") %>%
+      filter(year == input$yearsev) %>%
       ggplot() +
       geom_map(map = states_map,
                aes(map_id = state, fill = sev_area)) +
       expand_limits(x = states_map$long, y = states_map$lat) +
       scale_fill_viridis_c(option = "B",
                            direction = -1)+
-      labs(fill = "Total Severe Weather (Days)") +
+      labs(fill = "Total Severe Weather per Square Mile (days/miles^2)") +
       theme_map() +
       theme(legend.background = element_blank())
     )
@@ -133,7 +136,7 @@ server <- function(input, output) {
     )
     output$airplot <- renderPlot( 
       airquality_f %>% 
-        filter(Year == input$Year) %>% 
+        filter(Year == input$yearair) %>% 
         group_by(region, mean_AQI) %>% 
         ggplot() +
         geom_map(map = states_map,
