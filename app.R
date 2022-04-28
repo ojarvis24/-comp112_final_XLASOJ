@@ -36,6 +36,7 @@ sev_weatherarea <- read_csv("sev_weatherarea.csv")
 ui <- fluidPage(theme = bs_theme(bootswatch = "minty"), 
                 titlePanel("Where do I want to live in the United States?"),
                 h5("The United States is a large country with many states to live in. When choosing somewhere to move, weather can be an important factor in the decision. This app will allow users to learn about the weather in different US states and allow them to make an educated decision on where they would like to live."),
+                h6("Data collected from US Weather Events on Kaggle, the CORGIS Weather Data, and Air Quality Data on Kaggle."),
                 h3("What is the temperature like in different US states?"),
                 h6("Data from 2016"),
                 selectInput(inputId = "Station.State", 
