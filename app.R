@@ -99,7 +99,6 @@ server <- function(input, output) {
   output$severeplot <- renderPlot(
     sev_weatherarea %>%
       filter(year == input$year) %>%
-      filter(Severity == "Severe") %>%
       ggplot() +
       geom_map(map = states_map,
                aes(map_id = state, fill = sev_area)) +
