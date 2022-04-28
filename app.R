@@ -50,7 +50,8 @@ ui <- fluidPage(theme = bs_theme(bootswatch = "minty"),
                             label = "Year:", 
                             choices = c("2016", "2017", "2018", "2019", "2020", "2021")), 
                 submitButton("Submit"),
-                plotOutput(outputId = "precipplot"),
+                plotOutput(outputId = "precipplot",
+                           width="750px"),
                 h3("What types of weather do different states have?"),
                 selectInput(inputId = "state", 
                             label = "State(s):", 
@@ -63,14 +64,16 @@ ui <- fluidPage(theme = bs_theme(bootswatch = "minty"),
                             label = "Year:", 
                             choices = c("2016", "2017", "2018", "2019", "2020", "2021")), 
                 submitButton("Submit"),
-                plotOutput(outputId = "severeplot"),
+                plotOutput(outputId = "severeplot",
+                           width="750px"),
                 h3("What is the air quality like in different states?"),
                 uiOutput("mytext"),
                 selectInput(inputId = "yearair",
                             label = "Year:",
                             choices = c("2016", "2017", "2018", "2019", "2020", "2021")),
                 submitButton("Submit"),
-                plotOutput(outputId = "airplot")
+                plotOutput(outputId = "airplot",
+                           width="750px")
                 )#widgets
                 
 server <- function(input, output) {
