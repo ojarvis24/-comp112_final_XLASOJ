@@ -66,14 +66,11 @@ ui <- fluidPage(theme = bs_theme(bootswatch = "minty"),
                 plotOutput(outputId = "severeplot"),
                 h3("What is the air quality like in different states?"),
                 uiOutput("mytext"),
-                selectInput(inputId = "Year",
-                h6("Data from 2016"),
                 selectInput(inputId = "yearair",
                             label = "Year:",
                             choices = c("2016", "2017", "2018", "2019", "2020", "2021")),
                 submitButton("Submit"),
                 plotOutput(outputId = "airplot")
-                )
                 )#widgets
                 
 server <- function(input, output) {
