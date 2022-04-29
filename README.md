@@ -16,7 +16,7 @@ How often does this state have severe weather?
 
 What is the air quality like in this state?
 
-Data Collection: In this app, we use the datasets "US Weather Events (2016 - 2021)" posted by Sobhan Moosavi on Kaggle, "1980-2021 Daily Air Quality Index from the EPA" posted by Jen Wadkins, also on Kaggl, and data from the CORGIS Dataset Project, posted by Austin Cory Bart and Ryan Whitcomb. 
+Data Collection: In this app, we use the datasets "US Weather Events (2016 - 2021)" posted by Sobhan Moosavi on Kaggle, "1980-2021 Daily Air Quality Index from the EPA" posted by Jen Wadkins, also on Kaggle, and data from the CORGIS Dataset Project, posted by Austin Cory Bart and Ryan Whitcomb. 
 
 Analysis: 
 
@@ -29,3 +29,5 @@ Analysis:
   After investigating their options through this app, users will come away with a more well-rounded and thorough understanding the climate in the places they are considering moving to. By having all of this information in one app streamlines this process so people no longer have to search the internet, which is important because moving is stressful enough on its own. Our hope with this app is to help people educate themselves on their options, but also avoid increasing the anxiety around an already stressful process. 
 
 ShinyApp Link: https://monicali.shinyapps.io/comp112_final_project_weatherapp/
+
+Github Link: https://github.com/ojarvis24/comp112_final_XLASOJ
